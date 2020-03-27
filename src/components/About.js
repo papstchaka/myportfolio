@@ -14,13 +14,15 @@ function About({about}) {
                     <div className="col-md-6 col-sm-12">
                         <Fade bottom>
                             <div className="about-wrapper__image">
-                                <img
-                                    className="img-fluid rounded shadow-lg"
-                                    height="auto"
-                                    width="500px"
-                                    src={require("../assets/profile.jpg")}
-                                    alt="Profile Pic"
-                                />
+                                <Tilt options={{max: 10}}>
+                                    <img
+                                        className="img-fluid rounded shadow-lg"
+                                        height="auto"
+                                        width="500px"
+                                        src={require("../assets/profile.jpg")}
+                                        alt="Profile Pic"
+                                    />
+                                </Tilt>
                             </div>
                         </Fade>
                     </div>
