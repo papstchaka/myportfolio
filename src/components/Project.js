@@ -30,7 +30,7 @@ function Project({title,description,link_live,link_source,link_picture}) {
               <Fade right>
                 <div className="thumbnail rounded">
                   <Tilt options={{max: 10}}>
-                    <img className="img-fluid" src={`/assets/${link_picture}`} alt={`../assets/${link_picture}`}/>
+                    <img className="img-fluid" src={link_picture} alt={`../assets/${link_picture}`}/>
                   </Tilt>
                 </div>
               </Fade>

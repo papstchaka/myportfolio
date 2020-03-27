@@ -18,7 +18,7 @@ function About({about}) {
                                     className="img-fluid rounded shadow-lg"
                                     height="auto"
                                     width="500px"
-                                    src="/assets/profile.jpg"
+                                    src={require("../assets/profile.jpg")}
                                     alt="Profile Pic"
                                 />
                             </div>
