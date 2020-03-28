@@ -1,8 +1,14 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
+import Modal_ from './Modal_';
 
 function About({about}) {
+    const content = {
+        title: "Resume",
+        content: about.link
+    }
+
     return (
         <section id="about">
             <div className="container">
@@ -40,9 +46,10 @@ function About({about}) {
                                     {about.section3}
                                 </p>
                                 <span className="d-flex mt-3">
-                                    <a target="_blank" rel="noopener noreferrer" className="cta-btn cta-btn--resume" href={about.link}>
+                                    <Modal_ content={content}/>
+                                    {/* <a target="_blank" rel="noopener noreferrer" className="cta-btn cta-btn--resume" href={about.link}>
                                         View Resume
-                                    </a>
+                                    </a> */}
                                 </span>
                             </Fade>
                         </div>
