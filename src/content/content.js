@@ -23,7 +23,7 @@ export const projects = [
 ];
 
 export const contact = {
-    call_to_action: "[Put your call to action here]",
+    call_to_action: "",
     email: "mailto:alexander.christoph@tum.de"
 };
 
