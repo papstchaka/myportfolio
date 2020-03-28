@@ -47,9 +47,6 @@ function About({about}) {
                                 </p>
                                 <span className="d-flex mt-3">
                                     <Modal_ content={content}/>
-                                    {/* <a target="_blank" rel="noopener noreferrer" className="cta-btn cta-btn--resume" href={about.link}>
-                                        View Resume
-                                    </a> */}
                                 </span>
                             </Fade>
                         </div>

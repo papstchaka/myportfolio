@@ -24,13 +24,13 @@ function Modal_({content}) {
           <Modal.Header>
             <Modal.Title><h1 className="project-wrapper__text-title">{content.title}</h1></Modal.Title>
           </Modal.Header>
-          <Modal.Body style={{alignSelf: "center", height: "550px"}}>
+          <Modal.Body style={{alignSelf: "center", height: "55em", width: "100%", textAlign: "-webkit-center"}}>
             <Document
               file={content.content}
             >
               <Scroll>
-                <Page pageNumber={1} width={1000}/>
-                <Page pageNumber={2} width={1000}/>
+                <Page pageNumber={1} scale={1.8}/>
+                <Page pageNumber={2} scale={1.8}/>
               </Scroll>
             </Document>
           </Modal.Body>
