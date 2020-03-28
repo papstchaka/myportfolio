@@ -8,7 +8,7 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import '../style/main.scss';
 
-import { about, projects, contact, social_networks } from "../content/content.js"
+import { about, projects, contact, social_networks } from "../content/content.js";
 
 class App extends Component {
 

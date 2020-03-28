@@ -27,10 +27,11 @@ function Modal_({content}) {
           <Modal.Body style={{alignSelf: "center", height: "55em", width: "100%", textAlign: "-webkit-center"}}>
             <Document
               file={content.content}
+              className={"PDFDocument"}
             >
               <Scroll>
-                <Page pageNumber={1} scale={1.8}/>
-                <Page pageNumber={2} scale={1.8}/>
+                <Page pageNumber={1} scale={1.8} className={"PDFPage PDFPageOne"}/>
+                <Page pageNumber={2} scale={1.8} className={"PDFPage PDFPageOne"}/>
               </Scroll>
             </Document>
           </Modal.Body>
