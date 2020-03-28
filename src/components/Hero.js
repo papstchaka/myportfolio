@@ -1,5 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import { animateScroll } from 'react-scroll'
 
 function Hero() {
     return (
@@ -7,7 +8,7 @@ function Hero() {
             <div className="container">
                 <p>
                     <a className="back-to-top">
-                    <i className="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+                        <i className="fa fa-angle-down fa-2x" aria-hidden="true"></i>
                     </a>
                 </p>
             </div>
@@ -26,8 +27,8 @@ function Hero() {
             <div className="container">
                 <Fade bottom>
                     <p>
-                        <a href="#bottom" className="to-bottom">
-                        <i className="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+                        <a onClick={animateScroll.scrollToBottom} className="to-bottom">
+                            <i className="fa fa-angle-down fa-2x" aria-hidden="true"></i>
                         </a>
                     </p>
                 </Fade>

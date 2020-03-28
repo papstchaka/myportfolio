@@ -1,11 +1,12 @@
 import React from 'react';
 import SocialLink from './SocialLink';
+import { animateScroll } from 'react-scroll'
 
 function Footer({social_networks}) {
     return (
         <footer className="footer navbar-static-bottom">
             <div className="container">
-                <a href="#top" className="back-to-top" id="bottom">
+                <a onClick={animateScroll.scrollToTop} className="back-to-top" id="bottom">
                     <i className="fa fa-angle-up fa-2x" aria-hidden="true"></i>
                 </a>
             <div className="social-links">

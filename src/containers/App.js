@@ -15,7 +15,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div id="top"></div>
         <Hero />
         <About about={about}/>
         <ErrorBoundry>
