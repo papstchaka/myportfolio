@@ -30,6 +30,7 @@
 
 .PDFPageOne {
     margin-bottom: 25px;
+    overflow: hidden !important;
 }
 
 .PDFPage > canvas {
