@@ -4,13 +4,13 @@ import Accordion from 'react-bootstrap/Accordion';
 
 import './ProjectManager.css'
 
-function ProjectManager({data,wrapped}) {
+function ProjectManager({name,data,wrapped}) {
     if (wrapped) {
         return (
             <div className="wrapper">
                 <Accordion defaultActiveKey="1">
                     <Accordion.Toggle as="H3" variant="link" eventKey="0" >
-                        <h3 className="project-wrapper__text-title accordion-button">Zero to Mastery Webdeveloper related projects [2020]</h3>
+                        <h3 className="project-wrapper__text-title accordion-button">{name}</h3>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                         <div className="accordion-content">
@@ -31,8 +31,6 @@ function ProjectManager({data,wrapped}) {
                         </div>
                     </Accordion.Collapse>
                 </Accordion>
-                {/* <div className="space">                    
-                </div> */}
             </div>
         )
     } else {

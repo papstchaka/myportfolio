@@ -7,6 +7,7 @@ export const about = {
 
 export const projects = [
     {
+        name: "Zero to Mastery Webdeveloper related projects [2020]",
         data: [
             {
                 title: "Smart Brain",
@@ -26,6 +27,7 @@ export const projects = [
         wrapped: true
     },
     {
+        name: "",
         data: [
             {
                 title: "CovInteractive [2020]",

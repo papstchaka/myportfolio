@@ -16,7 +16,8 @@ function ProjectList({projects}) {
               projects.map((project,i) => {
                 return (
                   <ProjectManager 
-                  key={projects[i].data} 
+                  key={projects[i].name} 
+                  name={projects[i].name} 
                   data={projects[i].data}
                   wrapped={projects[i].wrapped}
                   />
