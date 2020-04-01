@@ -1,3 +1,2 @@
-- Wrapper um die Projekte von Zero To Mastery Webdeveloper (Dropdown-mäßig)
 - Lebenslauf verknüpft auf Originaldatei von Google Drive?
-- Projekte in zeitlicher Reihenfolge -> neueste nach oben, alte immer weiter runter schieben
+- django_test adden

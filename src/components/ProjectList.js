@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './Project';
+import ProjectManager from './ProjectManager';
 import Fade from 'react-reveal/Fade';
 
 function ProjectList({projects}) {
@@ -15,13 +15,10 @@ function ProjectList({projects}) {
             { 
               projects.map((project,i) => {
                 return (
-                  <Project 
-                  key={projects[i].title} 
-                  title={projects[i].title} 
-                  description={projects[i].description} 
-                  link_live={projects[i].link_live}
-                  link_source={projects[i].link_source}
-                  link_picture={projects[i].link_picture}
+                  <ProjectManager 
+                  key={projects[i].data} 
+                  data={projects[i].data}
+                  wrapped={projects[i].wrapped}
                   />
                   );
               })
