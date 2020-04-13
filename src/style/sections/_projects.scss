@@ -10,14 +10,13 @@
   }
 
   .project-wrapper {
-    margin-bottom: 15rem;
 
     @include respond(phone) {
       margin-bottom: 0rem;
     }
 
     .row {
-      margin-bottom: 8rem;
+      margin-bottom: 20px;
 
       @include respond(phone) {
         margin-bottom: 4rem;
@@ -75,4 +74,32 @@
       }
     }
   }
+}
+
+
+.accordion-content {
+	padding: 0px 10px;
+}
+.accordion-button {
+	text-align: left;
+	margin-bottom: unset !important;
+	padding-bottom: 1.8rem;
+	&:hover {
+		cursor: pointer;
+	}
+}
+.wrapper {
+	border: 2px solid #fafafa;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	padding: 5px 10px 0px 10px;
+	box-shadow: 5px 5px #f8f8f8;
+	transition: all .5s ease-in-out;
+	&:hover {
+		background: #fafafa;
+		transform: scale(1.03);
+	}
+}
+#projects {
+	margin-bottom: 0px;
 }

@@ -3,8 +3,6 @@ import Modal from 'react-bootstrap/Modal';
 import Scroll from './Scroll';
 import { Document, Page, pdfjs } from "react-pdf";
 
-import './Modal.css'
-
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function Modal_({content}) {
@@ -24,7 +22,7 @@ function Modal_({content}) {
           <Modal.Header>
             <Modal.Title><h1 className="project-wrapper__text-title">{content.title}</h1></Modal.Title>
           </Modal.Header>
-          <Modal.Body style={{alignSelf: "center", height: "55em", width: "100%", textAlign: "-webkit-center"}}>
+          <Modal.Body className="modal-body">
             <Document
               file={content.content}
               className={"PDFDocument"}
@@ -36,7 +34,7 @@ function Modal_({content}) {
             </Document>
           </Modal.Body>
           <Modal.Footer>
-          <a rel="noopener noreferrer" className="cta-btn cta-btn--resume" onClick={handleClose}>
+          <a rel="noopener noreferrer" className="cta-btn cta-btn--hero" onClick={handleClose}>
               Close
             </a>
           </Modal.Footer>

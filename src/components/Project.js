@@ -5,7 +5,7 @@ import Tilt from 'react-tilt';
 
 function Project({title,description,link_live,link_source,link_picture}) {
     return (
-      <div className="row" style={{marginBottom: "20px"}}>
+      <div className="row">
         <div className="col-lg-4 col-sm-12">
           <div className="project-wrapper__text">
               <Fade left>

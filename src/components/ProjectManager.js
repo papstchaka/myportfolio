@@ -2,7 +2,7 @@ import React from 'react';
 import Project from './Project';
 import Accordion from 'react-bootstrap/Accordion';
 
-import './ProjectManager.css'
+// import './ProjectManager.css'
 
 function ProjectManager({name,data,wrapped}) {
     if (wrapped) {

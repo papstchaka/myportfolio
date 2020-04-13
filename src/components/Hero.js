@@ -4,11 +4,11 @@ import { animateScroll } from 'react-scroll'
 
 function Hero() {
     return (
-        <div id="hero" className="jumbotron" style={{display: "flex", flexDirection: "column", justifyContent: "space-between"}}>
+        <div id="hero" className="jumbotron">
             <div className="container">
                 <p>
                     <a className="back-to-top">
-                        <i className="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+                        <i className="fa fa-angle-down fa-2x load-hidden" aria-hidden="true"></i>
                     </a>
                 </p>
             </div>

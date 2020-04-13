@@ -1,2 +1,2 @@
 - Lebenslauf verknüpft auf Originaldatei von Google Drive?
-- django_test adden
+- django_test, simple_django_react_app, plotly_dash adden

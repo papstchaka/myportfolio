@@ -26,7 +26,7 @@ function Footer({social_networks}) {
             <hr />
             
             <p className="footer__text">
-                © 2020 - Idea from <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">Jacobo Martínez</a>
+                © 2020 - Design by <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">Jacobo Martínez</a>
             </p>
             <p className="footer__text"> 
                 Implementation and Individualisation by <a href="https://github.com/papstchaka" target="_blank" rel="noopener noreferrer">Alexander Christoph</a>
