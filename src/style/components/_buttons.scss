@@ -97,3 +97,10 @@
 .up i {
   color: #272727;
 }
+
+.src-link {
+
+  &:hover {
+    -webkit-text-fill-color: $primary-color;
+  }
+}

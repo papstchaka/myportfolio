@@ -1,2 +1,0 @@
-- Lebenslauf verknüpft auf Originaldatei von Google Drive?
-- simple_django_react_app, django_test, dash_test adden, in einem Wrapper ähnlich ZTM

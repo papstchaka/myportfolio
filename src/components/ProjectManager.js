@@ -13,7 +13,7 @@ function ProjectManager({name,data,description,wrapped}) {
                     <Accordion.Toggle as="H3" variant="link" eventKey="0" >
                         <h3 className="project-wrapper__text-title accordion-button">{name}</h3>
                         <div className="project-wrapper__text">
-                            <p className="mb-4">{ReactHtmlParser(description)}</p>
+                            <p className="mb-4" style={{"marginLeft":"2px"}}>{ReactHtmlParser(description)}</p>
                         </div>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">

@@ -8,7 +8,7 @@ export const about = {
 export const projects = [
     {
         name: "Simple Frontend applications using different ways to implement [2020]",
-        description: "These projects each provide a simple application that can easily be extended to become large and powerful projects. They are working with different frontend respectively backend frameworks, from django-REST with ReactJS over django with pure HTML+CSS up to pure Python (dash) with some CSS-styles.",
+        description: "These projects each provide a simple application that can easily be extended to become large and powerful projects. They are working with different frontend respectively backend frameworks, from <a href='https://django-rest-framework.org' target='_blank'>Django REST</a> with <a href='https://reactjs.org' target='_blank'>ReactJS</a> over django with pure HTML+CSS up to pure Python (<a href='https://plotly.com/dash/' target='_blank'>dash</a>) with some CSS-styles.",
         data: [
             {
                 title: "Simple Django and React App",
@@ -47,7 +47,7 @@ export const projects = [
             },
             {
                 title: "RoboFriends",
-                description: "Finished my first App using React. Thanks to <a href='https://github.com/aneagoie' target='_blank'>Andrei Neagioe</a> for his course in WebDevelopment and bringing me and for sure more than 200k other fellow students into the world of HTML, CSS and JavaScript. The project was to build a facebook alike version that shows all of my virtual robotic friends with an implemented SearchBar.",
+                description: "Finished my first App using ReactJS and successfully deploying the result on the web. Thanks to <a href='https://github.com/aneagoie' target='_blank'>Andrei Neagioe</a> for his course in WebDevelopment and bringing me and for sure more than 200k other fellow students into the world of HTML, CSS and JavaScript. The project was to build a facebook alike version that shows all of my virtual robotic friends with an implemented SearchBar. This SearchBar is updating the shown website's content in real time, feel free to check it out!",
                 link_live: "https://papstchaka.github.io/robofriends/",
                 link_source: "https://github.com/papstchaka/robofriends",
                 link_picture: require("../assets/robofriends.jpg"),
