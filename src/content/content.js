@@ -7,11 +7,40 @@ export const about = {
 
 export const projects = [
     {
+        name: "Simple Frontend applications using different ways to implement [2020]",
+        description: "These projects each provide a simple application that can easily be extended to become large and powerful projects. They are working with different frontend respectively backend frameworks, from django-REST with ReactJS over django with pure HTML+CSS up to pure Python (dash) with some CSS-styles.",
+        data: [
+            {
+                title: "Simple Django and React App",
+                description: "This project combines the Django-REST-API for backend and server handling with the simple and clean frontend implementation of an ReactJS App. It therfor provides the possibility to manage a list of notes which shall be worked off until a certain deadline day which can also be easily changed and accessed. Main goal of the project is to show how Django and React work together, the functionality (here the list of notes) is secondary.",
+                link_live: "",
+                link_source: "https://github.com/papstchaka/simple_django_react_app",
+                link_picture: require("../assets/simple_django_react_app.jpg"),        
+            },
+            {
+                title: "Django",
+                description: "This repository shows how to implement a simple Application using Python's Django. Django therfor controls all the server and backend handling and can refer to custom HTML sites which need to be built additional. Main advantage is that you can pass python objects directly into the HTML-file without caring to much about POST and GET requests. Frontends like these are recommended for small projects that need a quick and easy frontend. Application provides a bunch of subwebsites with unique funtionalities. Please checkout the repository itself for more information.",
+                link_live: "",
+                link_source: "https://github.com/papstchaka/django_test",
+                link_picture: require("../assets/django_test.jpg"),
+            },
+            {
+                title: "Dash",
+                description: "This repository provides an almost similar Application as the above by using plotly's Dash. Dash can provide everything from backend to frontend. The whole HTML and JavaScript implementation of an application can be done by using dash only - maybe with some addiotional CSS-styles. Frontends like these are recommended for small projects that need a quick and easy frontend.  Please checkout the repository itself for more information about the projects functionality.",
+                link_live: "",
+                link_source: "https://github.com/papstchaka/dash_test",
+                link_picture: require("../assets/dash_test.jpg"),
+            }
+        ],
+        wrapped: true
+    },
+    {
         name: "Zero to Mastery Webdeveloper related projects [2020]",
+        description: "These projects are the result of <a href='https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery' target='_blank'>The Complete Web Developer in 2020 Zero to Mastery</a> held by <a href='https://github.com/aneagoie' target='_blank'>Andrei Neagioe</a> on <a href='https://www.udemy.com/' target='_blank'>Udemy</a>.",
         data: [
             {
                 title: "Smart Brain",
-                description: "Finished the Final Project of <a href='https://github.com/aneagoie' target='_blank'>Andrei Neagioe</a>'s Zero to Mastery Webdevelopment course on <a href='https://www.udemy.com/' target='_blank'>Udemy</a>. Project provides a website you can register and log in to (without email verification). So just register with whatever email you want (they will only be stored on my own SQL-DataBase which I don't care about, nobody will see them). Your passwords will also be stored there but hashed, so it is almost impossible for anyone (including me) to access them. Once logged in you can insert a photo-url (from the web) into the input and the API in the background will detect all faces which occur on the photo. Furthermore, once you are registered you'll get a unique score that tells you the amount of photos analysed by yourself.",
+                description: "Finished the Final Project of the course. Project provides a website you can register and log in to (without email verification). So just register with whatever email you want (they will only be stored on my own SQL-DataBase which I don't care about, nobody will see them). Your passwords will also be stored there but hashed, so it is almost impossible for anyone (including me) to access them. Once logged in you can insert a photo-url (from the web) into the input and the API in the background will detect all faces which occur on the photo. Furthermore, once you are registered you'll get a unique score that tells you the amount of photos analysed by yourself.",
                 link_live: "https://papstchaka.github.io/smartbrain/",
                 link_source: "https://github.com/papstchaka/smartbrain",
                 link_picture: require("../assets/smartbrain.jpg"),        
@@ -28,6 +57,7 @@ export const projects = [
     },
     {
         name: "",
+        description: "",
         data: [
             {
                 title: "CovInteractive [2020]",

@@ -19,6 +19,7 @@ function ProjectList({projects}) {
                   key={projects[i].name} 
                   name={projects[i].name} 
                   data={projects[i].data}
+                  description={projects[i].description}
                   wrapped={projects[i].wrapped}
                   />
                   );

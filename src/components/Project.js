@@ -4,6 +4,8 @@ import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 
 function Project({title,description,link_live,link_source,link_picture}) {
+    const live_link_avb = link_live === "" ? "contents" : "inline-block";
+    
     return (
       <div className="row">
         <div className="col-lg-4 col-sm-12">
@@ -15,11 +17,11 @@ function Project({title,description,link_live,link_source,link_picture}) {
                   {ReactHtmlParser(description)}
                 </p>
               </div>
-              <a target="_blank" rel="noopener noreferrer" className="cta-btn cta-btn--hero" href={link_live}>
-                See Live
-              </a>
               <a target="_blank" rel="noopener noreferrer" className="cta-btn text-color-main" href={link_source}>
                 Source Code
+              </a>
+              <a target="_blank" rel="noopener noreferrer" className="cta-btn cta-btn--hero" href={link_live} style={{"display":live_link_avb}}>
+                See Live
               </a>
             </Fade>
           </div>

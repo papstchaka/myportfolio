@@ -1,16 +1,20 @@
 import React from 'react';
+import ReactHtmlParser from 'react-html-parser';
 import Project from './Project';
 import Accordion from 'react-bootstrap/Accordion';
 
 // import './ProjectManager.css'
 
-function ProjectManager({name,data,wrapped}) {
+function ProjectManager({name,data,description,wrapped}) {
     if (wrapped) {
         return (
             <div className="wrapper">
                 <Accordion defaultActiveKey="1">
                     <Accordion.Toggle as="H3" variant="link" eventKey="0" >
                         <h3 className="project-wrapper__text-title accordion-button">{name}</h3>
+                        <div className="project-wrapper__text">
+                            <p className="mb-4">{ReactHtmlParser(description)}</p>
+                        </div>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                         <div className="accordion-content">
