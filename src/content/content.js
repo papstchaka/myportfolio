@@ -22,7 +22,7 @@ export const projects = [
     },
     {
         name: "Simple Frontend applications using different ways to implement [2020]",
-        description: "These projects each provide a simple application that can easily be extended to become large and powerful projects. They are working with different frontend respectively backend frameworks, from <a href='https://django-rest-framework.org' target='_blank'>Django REST</a> with <a href='https://reactjs.org' target='_blank'>ReactJS</a> over django with pure HTML+CSS up to pure Python (<a href='https://plotly.com/dash/' target='_blank'>dash</a>) with some CSS-styles.",
+        description: "These projects each provide a simple application that can easily be extended to become large and powerful projects. They are combining different frontend and backend frameworks, from <a href='https://django-rest-framework.org' target='_blank'>Django REST</a> respectively <a href='https://flask.palletsprojects.com/' target='_blank'>Flask</a> with <a href='https://reactjs.org' target='_blank'>ReactJS</a> over pure <a href='https://www.djangoproject.com/' target='_blank'>Django</a> with pure HTML+CSS up to pure Python (<a href='https://plotly.com/dash/' target='_blank'>dash</a>) with some CSS-styles.",
         data: [
             {
                 title: "Backend + React App",
