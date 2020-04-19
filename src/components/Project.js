@@ -26,7 +26,7 @@ function Project({title,description,link_live,link_source,link_picture}) {
             </Fade>
           </div>
         </div>
-        <div className="col-lg-8 col-sm-12">
+        <div className="col-lg-8 col-sm-12 myimg">
           <div className="project-wrapper__image">
             <a>
               <Fade right>

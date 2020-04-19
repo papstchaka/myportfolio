@@ -56,7 +56,7 @@
 
       @include respond(tab-land) {
         width: 100%;
-        margin-top: 6.5rem;
+        margin-top: 0rem;
       }
 
       & .thumbnail {
@@ -105,8 +105,3 @@
 #projects {
 	margin-bottom: 0px;
 }
-
-// .pic {
-//   width: 100%;
-//   height: ;
-// }

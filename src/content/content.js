@@ -25,8 +25,8 @@ export const projects = [
         description: "These projects each provide a simple application that can easily be extended to become large and powerful projects. They are working with different frontend respectively backend frameworks, from <a href='https://django-rest-framework.org' target='_blank'>Django REST</a> with <a href='https://reactjs.org' target='_blank'>ReactJS</a> over django with pure HTML+CSS up to pure Python (<a href='https://plotly.com/dash/' target='_blank'>dash</a>) with some CSS-styles.",
         data: [
             {
-                title: "Simple Django and React App",
-                description: "This project combines the Django-REST-API for backend and server handling with the simple and clean frontend implementation of an ReactJS App. It therfor provides the possibility to manage a list of notes which shall be worked off until a certain deadline day which can also be easily changed and accessed. Main goal of the project is to show how Django and React work together, the functionality (here the list of notes) is secondary.",
+                title: "Backend + React App",
+                description: "These projects combine the Django-REST-API respectively python\'s flask as backends and servers handling with the simple and clean frontend implementation of an ReactJS App. It therfor provides the possibility to manage a list of notes which shall be worked off until a certain deadline day which can also be easily changed and accessed. Main goal of the project is to show how Django and React work together, the functionality (here the list of notes) is secondary. The other project - in this case <a href='https://github.com/papstchaka/simple_flask_react_app' target='_blank'>the flask implementation</a> - can be also accessed through the Git-project which is linked below.",
                 link_live: "",
                 link_source: "https://github.com/papstchaka/simple_django_react_app",
                 link_picture: require("../assets/simple_django_react_app.jpg"),        
