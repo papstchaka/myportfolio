@@ -7,6 +7,20 @@ export const about = {
 
 export const projects = [
     {
+        name: "",
+        description: "",
+        data: [
+            {
+                title: "SmartQ [2020]",
+                description: "This project is the result of the work from me and my team during the german wide hackathon <a href='https://covid19.hackatum.com/' target='_blank'>Hackatum</a> Hackathon. SmartQ helps people to find stores, supermarkets and co in times of long queues due to the heavy regulations made because of the coronavirus. Furthermore, the shop owner benefits from the use of SmartQ. With the integrated counting system, the owners of small or medium-sized shops get a useful managing system, to control and regulate the flow of persons into their facilities. See the full project description on <a href='https://devpost.com/software/smartqueue-4im8hf' target='_blank'>SmartQ</a>.",
+                link_live: "http://dies-das-ananas.eu/#/",
+                link_source: "https://github.com/sukram42/SmartQ",
+                link_picture: require("../assets/smartq.jpg"),
+            }
+        ],
+        wrapped: false
+    },
+    {
         name: "Simple Frontend applications using different ways to implement [2020]",
         description: "These projects each provide a simple application that can easily be extended to become large and powerful projects. They are working with different frontend respectively backend frameworks, from <a href='https://django-rest-framework.org' target='_blank'>Django REST</a> with <a href='https://reactjs.org' target='_blank'>ReactJS</a> over django with pure HTML+CSS up to pure Python (<a href='https://plotly.com/dash/' target='_blank'>dash</a>) with some CSS-styles.",
         data: [
@@ -61,7 +75,7 @@ export const projects = [
         data: [
             {
                 title: "CovInteractive [2020]",
-                description: "Result of the work from me and my team during the german wide hackathon <a href='https://wirvsvirushackathon.org/' target='_blank'>WirVsVirus</a> Hackathon. Goal was to develop a website that shows graphically the impact of curfews and other actions made by the government during the corona crisis in 2020. Basing on a basic SIR-model fed by RKI (Robert-Koch-Institut) and Johns Hopkins CSSE data with plots about the relative spread in each country in the world and with view on inner-german states and counties.",
+                description: "Result of the work from me and my team during the german wide hackathon <a href='https://wirvsvirushackathon.org/' target='_blank'>WirVsVirus</a> Hackathon. Goal was to develop a website that shows graphically the impact of curfews and other actions made by the government during the corona crisis in 2020. Basing on a basic SIR-model fed by RKI (Robert-Koch-Institut) and Johns Hopkins CSSE data with plots about the relative spread in each country in the world and with view on inner-german states and counties. See the full project description on <a href='https://devpost.com/software/covinteractive' target='_blank'>CovInteractive</a>.",
                 link_live: "https://covinteractive.herokuapp.com/",
                 link_source: "https://gitlab.com/jdcoding/explore-corona",
                 link_picture: require("../assets/explore-corona.jpg"),
