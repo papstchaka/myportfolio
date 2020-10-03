@@ -1,11 +1,25 @@
 export const about = {
     section1: "Born 1996 in Karlsruhe, grown up near Stuttgart.",
-    section2: "Started programming by the age of 11 during highschool with self made soccer playing robots. After finishing school and with begin of bachelors degree (Electrotechnics - B. Sc. - University of Stuttgart) moved on to data science and data analytics while working as working student @ Mercedes Benz. Later on moved to Munich making the masters degree (Electrotechnics - M. Sc. - TU Munich) focusing on data science, going deep into machine learning & artificial intelligence.",
+    section2: "Started programming by the age of 11 during highschool with self made soccer playing robots. After finishing school and with begin of bachelors degree (Electrotechnics - B. Sc. - University of Stuttgart) moved on to data science and data analytics while working as working student @ Mercedes Benz. Later on moved to Munich making the masters degree (Electrotechnics - M. Sc. - TU Munich) focusing on data science, going deep into machine learning & artificial intelligence. Joined Siemens as working student in Munich focusing on assessment and implementation of machine learning algorithms in the sphere of industrial Edge-Cloud Environments and intelligent manufacturing Infrastructure",
     section3: "With passion and love into sports (soccer, volleyball, running), coding and spending time in the park with friends.",
     link: require("../assets/Lebenslauf.pdf")
 };
 
 export const projects = [
+    {
+        name: "",
+        description: "",
+        data: [
+            {
+                title: "Basic ML [2020]",
+                description: "The presented repository holds a library of most common algorithms used manually without using the help of <a href='https://scikit-learn.org/stable/' target='_blank'>sklearn</a> or other Machine Learning libraries like <a href='https://pandas.pydata.org/' target='_blank'>pandas</a>. All algorithms work mainly on <a href='https://numpy.org/' target='_blank'>numpy</a> and minor helper or built-in libraries. The algorithms that were implemented contain <a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html' target='_blank'>Linear Regression</a>, <a href='https://scikit-learn.org/stable/modules/clustering.html' target='_blank'>Clustering</a>, <a href='https://scikit-learn.org/stable/modules/unsupervised_reduction.html' target='_blank'>Dimension Reduction</a>, <a href='https://scikit-learn.org/stable/modules/generated/sklearn.mixture.GaussianMixture.html' target='_blank'>Gaussian Mixture Models with Expectation Maximization Algorithm</a>, <a href='https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessRegressor.html' target='_blank'>Gaussian Processes</a>, <a href='https://pythonprogramming.net/q-learning-reinforcement-learning-python-tutorial/' target='_blank'>Reinforcement Learning</a>, <a href='http://scikit-learn.sourceforge.net/stable/modules/hmm.html' target='_blank'>Hidden Markov Models</a>, <a href='https://www.tensorflow.org/tutorials/keras/classification' target='_blank'>Deep Learning using Neural Networks</a>, <a href=https://pypi.org/project/sklearn-genetic/ target='_blank'>Genetic algorithm for DataSet manipulation</a>. For further information, please refer to the docs.",
+                link_live: "",
+                link_source: "https://github.com/papstchaka/basic_ml",
+                link_picture: require("../assets/basic_ml.jpg"),
+            }
+        ],
+        wrapped: false
+    },
     {
         name: "",
         description: "",

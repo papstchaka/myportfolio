@@ -105,7 +105,7 @@
   }
 
   &:hover {
-    -webkit-text-fill-color: $primary-color;
+    -webkit-text-fill-color: $link-color;
     &::after {
       width: 100%;
     }

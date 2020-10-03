@@ -47,6 +47,10 @@
 
       & p > a {
         color: $secondary-color;
+
+        &:hover {
+          color: $link-color;
+        }
       }
     }
 
