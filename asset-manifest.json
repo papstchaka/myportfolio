@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.9c8741a9.chunk.css",
-    "main.js": "/myportfolio/static/js/main.58657ddf.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.58657ddf.chunk.js.map",
+    "main.css": "/myportfolio/static/css/main.44c38837.chunk.css",
+    "main.js": "/myportfolio/static/js/main.6b194ca6.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.6b194ca6.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.4f0cea2f.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.4f0cea2f.js.map",
-    "static/js/2.157f0a54.chunk.js": "/myportfolio/static/js/2.157f0a54.chunk.js",
-    "static/js/2.157f0a54.chunk.js.map": "/myportfolio/static/js/2.157f0a54.chunk.js.map",
+    "static/js/2.6cba29c6.chunk.js": "/myportfolio/static/js/2.6cba29c6.chunk.js",
+    "static/js/2.6cba29c6.chunk.js.map": "/myportfolio/static/js/2.6cba29c6.chunk.js.map",
     "index.html": "/myportfolio/index.html",
-    "precache-manifest.8154bf979350318bf2b8328ac4d37406.js": "/myportfolio/precache-manifest.8154bf979350318bf2b8328ac4d37406.js",
+    "precache-manifest.be5fe0a028d6988af83a33146b8b1b34.js": "/myportfolio/precache-manifest.be5fe0a028d6988af83a33146b8b1b34.js",
     "service-worker.js": "/myportfolio/service-worker.js",
-    "static/css/main.9c8741a9.chunk.css.map": "/myportfolio/static/css/main.9c8741a9.chunk.css.map",
-    "static/js/2.157f0a54.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.157f0a54.chunk.js.LICENSE.txt",
-    "static/media/Lebenslauf.pdf": "/myportfolio/static/media/Lebenslauf.3cd558cc.pdf",
+    "static/css/main.44c38837.chunk.css.map": "/myportfolio/static/css/main.44c38837.chunk.css.map",
+    "static/js/2.6cba29c6.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.6cba29c6.chunk.js.LICENSE.txt",
+    "static/media/Lebenslauf.pdf": "/myportfolio/static/media/Lebenslauf.89f0cc20.pdf",
+    "static/media/basic_ml.jpg": "/myportfolio/static/media/basic_ml.6f3224a2.jpg",
     "static/media/dash_test.jpg": "/myportfolio/static/media/dash_test.b659c659.jpg",
     "static/media/django_test.jpg": "/myportfolio/static/media/django_test.4113ae6b.jpg",
     "static/media/explore-corona.jpg": "/myportfolio/static/media/explore-corona.8cfcce9a.jpg",
@@ -24,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4f0cea2f.js",
-    "static/js/2.157f0a54.chunk.js",
-    "static/css/main.9c8741a9.chunk.css",
-    "static/js/main.58657ddf.chunk.js"
+    "static/js/2.6cba29c6.chunk.js",
+    "static/css/main.44c38837.chunk.css",
+    "static/js/main.6b194ca6.chunk.js"
   ]
 }
