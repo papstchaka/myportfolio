@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # costum ignore's
-how_to.txt
+how_to.md
 debug.log
