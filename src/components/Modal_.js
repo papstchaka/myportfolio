@@ -24,7 +24,7 @@ function Modal_({content}) {
           </Modal.Header>
           <Modal.Body className="modal-body">
             <Document
-              file={content.content}
+              file={content.content.show}
               className={"PDFDocument"}
             >
               <Scroll>
@@ -36,6 +36,9 @@ function Modal_({content}) {
           <Modal.Footer>
           <a rel="noopener noreferrer" className="cta-btn cta-btn--hero" onClick={handleClose}>
               Close
+            </a>
+          <a rel="noopener noreferrer" href={content.content.download} className="cta-btn cta-btn--hero" download="CV.pdf">
+              Download
             </a>
           </Modal.Footer>
         </Modal>

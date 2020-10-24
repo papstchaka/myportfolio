@@ -6,7 +6,9 @@ import Modal_ from './Modal_';
 function About({about}) {
     const content = {
         title: "Resume",
-        content: about.link
+        content: {
+            show: about.link_show, 
+            download: about.link_download}
     }
 
     return (
