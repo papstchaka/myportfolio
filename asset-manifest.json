@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.c4bc83dd.chunk.css",
-    "main.js": "/myportfolio/static/js/main.43d76384.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.43d76384.chunk.js.map",
+    "main.js": "/myportfolio/static/js/main.64bde377.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.64bde377.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.4f0cea2f.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.4f0cea2f.js.map",
-    "static/js/2.396dcdc2.chunk.js": "/myportfolio/static/js/2.396dcdc2.chunk.js",
-    "static/js/2.396dcdc2.chunk.js.map": "/myportfolio/static/js/2.396dcdc2.chunk.js.map",
+    "static/js/2.09bfb170.chunk.js": "/myportfolio/static/js/2.09bfb170.chunk.js",
+    "static/js/2.09bfb170.chunk.js.map": "/myportfolio/static/js/2.09bfb170.chunk.js.map",
     "index.html": "/myportfolio/index.html",
-    "precache-manifest.5a22dad74cfaa30e18ace36413818738.js": "/myportfolio/precache-manifest.5a22dad74cfaa30e18ace36413818738.js",
+    "precache-manifest.41a996f35e4c3d1529ea4f083c9f40bb.js": "/myportfolio/precache-manifest.41a996f35e4c3d1529ea4f083c9f40bb.js",
     "service-worker.js": "/myportfolio/service-worker.js",
     "static/css/main.c4bc83dd.chunk.css.map": "/myportfolio/static/css/main.c4bc83dd.chunk.css.map",
-    "static/js/2.396dcdc2.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.396dcdc2.chunk.js.LICENSE.txt",
+    "static/js/2.09bfb170.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.09bfb170.chunk.js.LICENSE.txt",
     "static/media/CV.pdf": "/myportfolio/static/media/CV.e06d30f9.pdf",
     "static/media/CV_show.pdf": "/myportfolio/static/media/CV_show.903f9401.pdf",
+    "static/media/barnsley_fern.jpg": "/myportfolio/static/media/barnsley_fern.f89217d1.jpg",
     "static/media/basic_ml.jpg": "/myportfolio/static/media/basic_ml.6f3224a2.jpg",
     "static/media/dash_test.jpg": "/myportfolio/static/media/dash_test.b659c659.jpg",
     "static/media/django_test.jpg": "/myportfolio/static/media/django_test.4113ae6b.jpg",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4f0cea2f.js",
-    "static/js/2.396dcdc2.chunk.js",
+    "static/js/2.09bfb170.chunk.js",
     "static/css/main.c4bc83dd.chunk.css",
-    "static/js/main.43d76384.chunk.js"
+    "static/js/main.64bde377.chunk.js"
   ]
 }
