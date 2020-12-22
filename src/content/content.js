@@ -8,6 +8,20 @@ export const about = {
 
 export const projects = [
     {
+        name: "High Performance Computing related projects [2020]",
+        description: "The following repositories are directly related to <a href='https://www.ei.tum.de/ldv/startseite/' target='_blank'>Lehrstuhl für Datenverarbeitung</a> course <a href='https://www.ei.tum.de/ldv/lehre/high-performance-computing-fuer-maschinelle-intelligenz/' target='_blank'>High Performance Computing for machine intelligence</a> at TU Munich. Goal of the course was to use parallelism in combination with C++ to speed-up different kinds of algorithms. First, algorithms were implemented using multiple threads on one single machine, later on - using <a href='https://www.openmp.org/' target=_blank'>OpenMP</a> and <a href='https://www.open-mpi.org/' target=_blank'>OpenMPI</a> - on mulitple machines.",
+        data: [
+            {
+                title: "Barnsley Fern",
+                description: "Parallel implementation of <a href='https://en.wikipedia.org/wiki/Barnsley_fern' target='_blank'>Barnsley Farn Algorithm</a> in C++. Repository follows up the <a href='https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem' target='_blank'>producer-consumer-model</a> and is aware of upcoming <a href='https://en.wikipedia.org/wiki/Race_condition' target='_blank'>race conditions</a> (= threadsafe) by using mutexes. Algorithm produces a BarnsleyFern with high resolution (10k x 20k pixels). The implementation of the consumer-producer model is held modular, so it is very simple to change the desired algorithm without loosing a framework that works parallel and therefore very performant and efficient.",
+                link_live: "",
+                link_source: "https://github.com/papstchaka/hpc_barnsleyfern",
+                link_picture: require("../assets/barnsley_fern.jpg"),
+            }
+        ],
+        wrapped: true
+    },
+    {
         name: "",
         description: "",
         data: [
