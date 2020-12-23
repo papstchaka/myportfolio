@@ -1,35 +1,35 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.c4bc83dd.chunk.css",
-    "main.js": "/myportfolio/static/js/main.c96a2cce.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.c96a2cce.chunk.js.map",
+    "main.js": "/myportfolio/static/js/main.ce9cf248.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.ce9cf248.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.4f0cea2f.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.4f0cea2f.js.map",
     "static/js/2.96805c25.chunk.js": "/myportfolio/static/js/2.96805c25.chunk.js",
     "static/js/2.96805c25.chunk.js.map": "/myportfolio/static/js/2.96805c25.chunk.js.map",
     "index.html": "/myportfolio/index.html",
-    "precache-manifest.31ac933312cb3d0d98614b9a361c1157.js": "/myportfolio/precache-manifest.31ac933312cb3d0d98614b9a361c1157.js",
+    "precache-manifest.9eb0098de2fe2c0aff0257c0377c169a.js": "/myportfolio/precache-manifest.9eb0098de2fe2c0aff0257c0377c169a.js",
     "service-worker.js": "/myportfolio/service-worker.js",
     "static/css/main.c4bc83dd.chunk.css.map": "/myportfolio/static/css/main.c4bc83dd.chunk.css.map",
     "static/js/2.96805c25.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.96805c25.chunk.js.LICENSE.txt",
     "static/media/CV.pdf": "/myportfolio/static/media/CV.e06d30f9.pdf",
     "static/media/CV_show.pdf": "/myportfolio/static/media/CV_show.903f9401.pdf",
-    "static/media/barnsley_fern.jpg": "/myportfolio/static/media/barnsley_fern.f89217d1.jpg",
-    "static/media/basic_ml.jpg": "/myportfolio/static/media/basic_ml.6f3224a2.jpg",
-    "static/media/dash_test.jpg": "/myportfolio/static/media/dash_test.b659c659.jpg",
-    "static/media/django_test.jpg": "/myportfolio/static/media/django_test.4113ae6b.jpg",
-    "static/media/explore-corona.jpg": "/myportfolio/static/media/explore-corona.8cfcce9a.jpg",
-    "static/media/profile.jpg": "/myportfolio/static/media/profile.1c687f16.jpg",
-    "static/media/resulting_paths_asyncvi.jpg": "/myportfolio/static/media/resulting_paths_asyncvi.6b0f5fbd.jpg",
-    "static/media/robofriends.jpg": "/myportfolio/static/media/robofriends.ef2e3f24.jpg",
-    "static/media/simple_django_react_app.jpg": "/myportfolio/static/media/simple_django_react_app.909002d0.jpg",
-    "static/media/smartbrain.jpg": "/myportfolio/static/media/smartbrain.9816f2ed.jpg",
-    "static/media/smartq.jpg": "/myportfolio/static/media/smartq.e071cd3c.jpg"
+    "static/media/barnsley_fern.webp": "/myportfolio/static/media/barnsley_fern.0b155c21.webp",
+    "static/media/basic_ml.webp": "/myportfolio/static/media/basic_ml.3ff2e1b9.webp",
+    "static/media/dash_test.webp": "/myportfolio/static/media/dash_test.29d82e46.webp",
+    "static/media/django_test.webp": "/myportfolio/static/media/django_test.91a9777e.webp",
+    "static/media/explore-corona.webp": "/myportfolio/static/media/explore-corona.1b451cc0.webp",
+    "static/media/profile.webp": "/myportfolio/static/media/profile.2a565502.webp",
+    "static/media/resulting_paths_asyncvi.webp": "/myportfolio/static/media/resulting_paths_asyncvi.55d079d0.webp",
+    "static/media/robofriends.webp": "/myportfolio/static/media/robofriends.ce8190d4.webp",
+    "static/media/simple_django_react_app.webp": "/myportfolio/static/media/simple_django_react_app.c9ad3e84.webp",
+    "static/media/smartbrain.webp": "/myportfolio/static/media/smartbrain.2be6b264.webp",
+    "static/media/smartq.webp": "/myportfolio/static/media/smartq.78fb16a1.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.4f0cea2f.js",
     "static/js/2.96805c25.chunk.js",
     "static/css/main.c4bc83dd.chunk.css",
-    "static/js/main.c96a2cce.chunk.js"
+    "static/js/main.ce9cf248.chunk.js"
   ]
 }
