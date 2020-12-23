@@ -9,7 +9,7 @@ export const about = {
 export const projects = [
     {
         name: "High Performance Computing related projects [2020]",
-        description: "The following repositories are directly related to <a href='https://www.ei.tum.de/ldv/startseite/' target='_blank'>Lehrstuhl für Datenverarbeitung</a> course <a href='https://www.ei.tum.de/ldv/lehre/high-performance-computing-fuer-maschinelle-intelligenz/' target='_blank'>High Performance Computing for machine intelligence</a> at TU Munich. Goal of the course was to use parallelism in combination with C++ to speed-up different kinds of algorithms. First, algorithms were implemented using multiple threads on one single machine, later on - using <a href='https://www.openmp.org/' target=_blank'>OpenMP</a> and <a href='https://www.open-mpi.org/' target=_blank'>OpenMPI</a> - on mulitple machines.",
+        description: "The following repositories are directly related to <a href='https://www.ei.tum.de/ldv/startseite/' target='_blank'>Lehrstuhl für Datenverarbeitung</a> course <a href='https://www.ei.tum.de/ldv/lehre/high-performance-computing-fuer-maschinelle-intelligenz/' target='_blank'>High Performance Computing for machine intelligence</a> at TU Munich. Goal of the course was to use parallelism in combination with C++ to speed-up different kinds of algorithms. First, algorithms were implemented using multiple threads on one single machine, later on - using <a href='https://www.openmp.org/' target='_blank'>OpenMP</a> and <a href='https://www.open-mpi.org/' target='_blank'>OpenMPI</a> - on mulitple machines.",
         data: [
             {
                 title: "Asynchronous Value Iteration",
