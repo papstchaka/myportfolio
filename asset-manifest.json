@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.c4bc83dd.chunk.css",
-    "main.js": "/myportfolio/static/js/main.ce9cf248.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.ce9cf248.chunk.js.map",
+    "main.js": "/myportfolio/static/js/main.6a55b4fa.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.6a55b4fa.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.4f0cea2f.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.4f0cea2f.js.map",
-    "static/js/2.96805c25.chunk.js": "/myportfolio/static/js/2.96805c25.chunk.js",
-    "static/js/2.96805c25.chunk.js.map": "/myportfolio/static/js/2.96805c25.chunk.js.map",
+    "static/js/2.8d32da41.chunk.js": "/myportfolio/static/js/2.8d32da41.chunk.js",
+    "static/js/2.8d32da41.chunk.js.map": "/myportfolio/static/js/2.8d32da41.chunk.js.map",
     "index.html": "/myportfolio/index.html",
-    "precache-manifest.9eb0098de2fe2c0aff0257c0377c169a.js": "/myportfolio/precache-manifest.9eb0098de2fe2c0aff0257c0377c169a.js",
+    "precache-manifest.a7d987c9d4653ca298bfb5fd8a70d30a.js": "/myportfolio/precache-manifest.a7d987c9d4653ca298bfb5fd8a70d30a.js",
     "service-worker.js": "/myportfolio/service-worker.js",
     "static/css/main.c4bc83dd.chunk.css.map": "/myportfolio/static/css/main.c4bc83dd.chunk.css.map",
-    "static/js/2.96805c25.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.96805c25.chunk.js.LICENSE.txt",
-    "static/media/CV.pdf": "/myportfolio/static/media/CV.e06d30f9.pdf",
-    "static/media/CV_show.pdf": "/myportfolio/static/media/CV_show.903f9401.pdf",
+    "static/js/2.8d32da41.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.8d32da41.chunk.js.LICENSE.txt",
+    "static/media/CV.pdf": "/myportfolio/static/media/CV.034c9a4c.pdf",
+    "static/media/CV_show.pdf": "/myportfolio/static/media/CV_show.9e7877f8.pdf",
     "static/media/barnsley_fern.webp": "/myportfolio/static/media/barnsley_fern.0b155c21.webp",
     "static/media/basic_ml.webp": "/myportfolio/static/media/basic_ml.3ff2e1b9.webp",
     "static/media/dash_test.webp": "/myportfolio/static/media/dash_test.29d82e46.webp",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4f0cea2f.js",
-    "static/js/2.96805c25.chunk.js",
+    "static/js/2.8d32da41.chunk.js",
     "static/css/main.c4bc83dd.chunk.css",
-    "static/js/main.ce9cf248.chunk.js"
+    "static/js/main.6a55b4fa.chunk.js"
   ]
 }
