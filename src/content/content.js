@@ -56,7 +56,7 @@ export const projects = [
             {
                 title: "SmartQ [2020]",
                 description: "This project is the result of the work from me and my team during the german wide hackathon <a href='https://covid19.hackatum.com/' target='_blank'>Hackatum</a> Hackathon which made us reach the 2nd place in the category of business-related projects. SmartQ helps people to find stores, supermarkets and co in times of long queues due to the heavy regulations made because of the coronavirus. Furthermore, the shop owner benefits from the use of SmartQ. With the integrated counting system, the owners of small or medium-sized shops get a useful managing system, to control and regulate the flow of persons into their facilities. See the full project description on <a href='https://devpost.com/software/smartqueue-4im8hf' target='_blank'>SmartQ</a>.",
-                link_live: "http://dies-das-ananas.eu/#/",
+                link_live: "",
                 link_source: "https://github.com/sukram42/SmartQ",
                 link_picture: require("../assets/smartq.webp"),
             }
@@ -119,7 +119,7 @@ export const projects = [
             {
                 title: "CovInteractive [2020]",
                 description: "Result of the work from me and my team during the german wide hackathon <a href='https://wirvsvirushackathon.org/' target='_blank'>WirVsVirus</a> Hackathon. Goal was to develop a website that shows graphically the impact of curfews and other actions made by the government during the corona crisis in 2020. Basing on a basic SIR-model fed by RKI (Robert-Koch-Institut) and Johns Hopkins CSSE data with plots about the relative spread in each country in the world and with view on inner-german states and counties. See the full project description on <a href='https://devpost.com/software/covinteractive' target='_blank'>CovInteractive</a>.",
-                link_live: "https://covinteractive.herokuapp.com/",
+                link_live: "",
                 link_source: "https://gitlab.com/jdcoding/explore-corona",
                 link_picture: require("../assets/explore-corona.webp"),
             }
