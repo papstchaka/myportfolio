@@ -14,9 +14,9 @@ function Footer({social_networks}) {
                 social_networks.map((social_network,i) => {
                     return (
                     <SocialLink 
-                    key={social_networks[i].network} 
-                    network={social_networks[i].network} 
-                    link={social_networks[i].link} 
+                    key={social_network.network} 
+                    network={social_network.network} 
+                    link={social_network.link} 
                     />
                     );
                 })
