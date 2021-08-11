@@ -22,12 +22,12 @@ function ProjectManager({name,data,description,wrapped}) {
                             data.map((project,i) => {
                                 return (
                                     <Project 
-                                        key={data[i].title} 
-                                        title={data[i].title}
-                                        description={data[i].description}
-                                        link_live={data[i].link_live}
-                                        link_source={data[i].link_source}
-                                        link_picture={data[i].link_picture}
+                                        key={project.title} 
+                                        title={project.title}
+                                        description={project.description}
+                                        link_live={project.link_live}
+                                        link_source={project.link_source}
+                                        link_picture={project.link_picture}
                                     />
                                 )
                             })
