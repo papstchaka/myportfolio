@@ -97,7 +97,7 @@
 .wrapper {
 	border: 2px solid #fafafa;
 	margin-bottom: 20px;
-	border-radius: 5px;
+	border-radius: 20px;
 	padding: 5px 10px 0px 10px;
 	box-shadow: 5px 5px #f8f8f8;
 	transition: all .5s ease-in-out;
@@ -106,6 +106,20 @@
 		transform: scale(1.03);
 	}
 }
+.years {
+  margin: 0px 0px 50px 0px;
+  padding: 20px 20px 20px 20px;
+  border: 0.5px solid;
+	border-radius: 50px;
+  &:hover {
+    background-image: linear-gradient(
+    135deg,
+    #f0f0f050 0%,
+    #e0e0e050 100%
+    );
+    transform: scale(1.01);
+  }
+}
 #projects {
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 }
