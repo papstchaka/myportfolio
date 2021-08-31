@@ -50,9 +50,8 @@
 
         &:hover {
           color: $second-link-color;
-          // color: $link-color;
-        -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
-        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
+          -webkit-box-shadow: 0.2rem 0.2rem 0.4rem rgba($black-color, 0.5);
+          box-shadow: 0.2rem 0.2rem 0.4rem rgba($black-color, 0.5);
         }
       }
     }
@@ -68,9 +67,9 @@
 
       & .thumbnail {
         border: none;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        box-shadow: 0 3px 6px rgba($black-color, 0.16), 0 3px 6px rgba($black-color, 0.23);
         transition: all 0.2s ease-out;
-        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 6px 10px rgba($black-color, 0.08), 0 0 6px rgba($black-color, 0.05);
         transition: 0.5s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
           0.5s box-shadow,
           0.5s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
@@ -104,7 +103,8 @@
 	padding: 5px 10px 0px 10px;
 	box-shadow: 5px 5px #f8f8f8;
 	transition: all .5s ease-in-out;
-	&:hover {
+	&:hover,
+  &:active  {
 		background: $white-color;
     box-shadow: 2px 2px $dark-grey;
 		transform: scale(1.03);
@@ -115,7 +115,8 @@
   padding: 20px 20px 20px 20px;
   border: 0.5px solid;
 	border-radius: 50px;
-  &:hover {
+  &:hover,
+  &:active {
     background: rgba($secondary-color, 0.2);
     transform: scale(1.01);
   }
