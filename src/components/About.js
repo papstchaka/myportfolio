@@ -28,7 +28,7 @@ function About({about}) {
                                         className="img-fluid rounded shadow-lg"
                                         height="auto"
                                         width="500px"
-                                        src={require("../assets/profile.webp")}
+                                        src={require("../assets/profile.webp").default}
                                         alt="Profile Pic"
                                     />
                                 </Tilt>
