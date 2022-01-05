@@ -10,6 +10,7 @@
     "bootstrap": "^4.4.1",
     "gh-pages": "^2.2.0",
     "jquery": "^3.4.1",
+    "node-buffer": "^1.0.3",
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
@@ -17,14 +18,14 @@
     "react-html-parser": "^2.0.2",
     "react-pdf": "^4.1.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "5.0.0",
     "react-scroll": "^1.7.16",
     "react-tilt": "^0.1.4",
     "tilt.js": "^1.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --max_old_space_size=8192 start",
+    "build": "react-scripts --max_old_space_size=8192 build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -46,6 +47,11 @@
     ]
   },
   "devDependencies": {
-    "sass": "^1.45.2"
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "path-browserify": "^1.0.1",
+    "sass": "^1.45.2",
+    "url": "^0.11.0",
+    "util": "^0.12.4"
   }
 }
