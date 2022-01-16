@@ -12,6 +12,7 @@
     "gh-pages": "^2.2.0",
     "jquery": "^3.4.1",
     "node-buffer": "^1.0.3",
+    "node-forge": "^1.2.1",
     "nth-check": "^2.0.1",
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
