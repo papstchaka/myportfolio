@@ -1,8 +1,23 @@
 {
   "name": "myportfolio",
   "homepage": "https://papstchaka.github.io/myportfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "keywords": [
+    "javascript",
+    "html",
+    "css",
+    "reatjs",
+    "portfolio",
+    "cv",
+    "papstchaka"
+  ],
+  "author": "Alex Christoph",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/papstchaka/myportfolio.git"
+  },
+  "description": "Big thanks to <a href=\"https://github.com/cobiwave\" target=\"_blank\">Jacobo Martínez</a> for providing this <a href=\"https://github.com/cobiwave/simplefolio/\" target=\"_blank\">simplefolio project</a> that can easily and quickly be turned into a customized version for everybody!",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
