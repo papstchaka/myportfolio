@@ -13,7 +13,7 @@ function Project({title,description,link_live,link_source,link_picture}) {
               <Fade left>
               <h3 className="project-wrapper__text-title">{title}</h3>
               <div>
-                <p className="mb-4">
+                <p className="mb-4" style={{"text-align":"justify"}}>
                   {ReactHtmlParser(description)}
                 </p>
               </div>

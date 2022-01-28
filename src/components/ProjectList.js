@@ -32,7 +32,7 @@ function ProjectList({projects}) {
                         <Accordion.Toggle as="H3" variant="link" eventKey="0" >
                             <h3 className="project-wrapper__text-title accordion-button">{project.year}</h3>
                             <div className="project-wrapper__text">
-                                <p className="mb-4" style={{"marginLeft":"2px"}}>{ReactHtmlParser(project.description)}</p>
+                                <p className="mb-4" style={{"marginLeft":"2px", "text-align":"justify"}}>{ReactHtmlParser(project.description)}</p>
                             </div>
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="0">
