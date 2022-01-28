@@ -1,7 +1,24 @@
 export const about = {
-    section1: "Born 1996 in Karlsruhe, grown up near Stuttgart.",
-    section2: "Started programming by the age of 11 during highschool with self made soccer playing robots. After finishing school and with begin of bachelors degree (Electrotechnics - B. Sc. - University of Stuttgart) moved on to data science and data analytics while working as working student @ Mercedes Benz. Later on moved to Munich making the masters degree (Electrotechnics - M. Sc. - TU Munich) focusing on data science, going deep into machine learning & artificial intelligence. Joined Siemens as working student in Munich focusing on assessment and implementation of machine learning algorithms in the sphere of industrial Edge-Cloud Environments and intelligent manufacturing Infrastructure",
-    section3: "With passion and love into sports (soccer, volleyball, running), coding and spending time in the park with friends.",
+    sections: [
+        {
+            data: "Born 1996 in Karlsruhe, grown up near Stuttgart."
+        },
+        {
+            data: "Started programming by the age of 11 during highschool with self made soccer playing robots."
+        },
+        {
+            data: "After finishing school and with begin of bachelors degree (Electrotechnics - B. Sc. - University of Stuttgart) moved on to Data Science and Data Analytics while working as working student @ Mercedes Benz."
+        },
+        {
+            data: "Moved to Munich afterwards making the masters degree (Electrotechnics - M. Sc. - TU Munich) focusing on Data Science, going deep into machine learning & artificial intelligence. Joined Siemens as working student in Munich focusing on assessment and implementation of machine learning algorithms in the sphere of industrial Edge-Cloud Environments and intelligent manufacturing Infrastructure."
+        },
+        {
+            data: "During this masters program, went to Vienna doing an Erasmus exchange semester. Hereby focussed on Informatic & Data Science."
+        },
+        {
+            data: "With passion and love into sports (soccer, volleyball, running), coding and spending time in the park with friends."
+        }
+    ],
     link_show: require("../assets/CV_show.pdf"),
     link_download: require("../assets/CV.pdf")
 };
