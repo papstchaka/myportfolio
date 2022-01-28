@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { animateScroll } from 'react-scroll'
+import TypeAnimation from 'react-type-animation'
 
 function Hero() {
     return (
@@ -17,7 +18,17 @@ function Hero() {
                     <h1 className="hero-title">
                         Hi, my name is <span className="text-color-main">Alex</span>
                         <br />
-                        I am your man!
+                        <span>
+                            <span>Your man for </span>
+                            <TypeAnimation curser={false} repeat={Infinity} wrapper={"span"} sequence={[
+                                "Data Science", 1000, 
+                                "Machine Learning", 1000,
+                                "Artificial Intelligence", 1000,
+                                "Web-Development", 1000,
+                                "Full-Stack", 1000,
+                                ""
+                            ]} />
+                        </span>
                     </h1>
                     <p className="hero-cta">
                         <a className="cta-btn cta-btn--hero" href="#about">Know more</a>
