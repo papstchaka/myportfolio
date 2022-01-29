@@ -25,8 +25,8 @@
 
     &__image {
       display: flex;
+      flex-direction: column;
       height: 100%;
-      align-items: center;
       justify-content: center;
 
       @include respond(tab-land) {
@@ -75,5 +75,33 @@
         }
       }
     }
+  }
+}
+
+.theslider {
+  text-align: left;
+  width: fit-content;
+  display: inline-block;
+  position: relative;
+  width: 150.413px;
+  border-image: none;
+  border-color: $white-color !important;
+  background-image: none;
+  text-shadow: 0px 10px lightgrey;
+
+  &:hover {
+    cursor: default;
+  }
+}
+
+.myname {
+  font-size: 3rem;
+}
+
+.adjust {
+  margin: 2rem 0 4.5rem 0 !important;
+  // Responsive style
+  @include respond(phone) {
+    align-self: center;
   }
 }
