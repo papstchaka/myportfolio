@@ -8,14 +8,14 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import '../style/main.scss';
 
-import { about, projects, contact, social_networks } from "../content/content.js";
+import { hero, about, projects, contact, social_networks } from "../content/content.js";
 
 class App extends Component {
 
   render() {
     return (
       <div>
-        <Hero />
+        <Hero hero={hero}/>
         <About about={about}/>
         <ErrorBoundry>
             <ProjectList projects={projects}/>

@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { animateScroll } from 'react-scroll'
 import TypeAnimation from 'react-type-animation'
 
-function Hero() {
+function Hero({hero}) {
     return (
         <div id="hero" className="jumbotron">
             <div className="container">
@@ -20,14 +20,7 @@ function Hero() {
                         <br />
                         <span>
                             <span>Your man for </span>
-                            <TypeAnimation curser={false} repeat={Infinity} wrapper={"span"} sequence={[
-                                "Data Science", 1000, 
-                                "Machine Learning", 1000,
-                                "Artificial Intelligence", 1000,
-                                "Web-Development", 1000,
-                                "Full-Stack", 1000,
-                                ""
-                            ]} />
+                            <TypeAnimation curser={false} repeat={Infinity} wrapper={"span"} sequence={hero.roles} />
                         </span>
                     </h1>
                     <p className="hero-cta">
