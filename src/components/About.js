@@ -1,6 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import Tilt from 'react-tilt';
+import TextLoop from 'react-text-loop'
 import Modal_ from './Modal_';
 
 function About({about}) {
@@ -14,46 +14,45 @@ function About({about}) {
     return (
         <section id="about">
             <div className="container">
-                <Fade>
-                    <h2 className="section-title">
-                        About me
-                    </h2>
-                </Fade>
                 <div className="row about-wrapper">
                     <div className="col-md-6 col-sm-12">
                         <Fade bottom>
                             <div className="about-wrapper__image">
-                                <Tilt options={{max: 10}}>
-                                    <img
-                                        className="img-fluid rounded shadow-lg"
-                                        height="auto"
-                                        width="500px"
-                                        src={require("../assets/profile.webp")}
-                                        alt="Profile Pic"
-                                    />
-                                </Tilt>
+                                <img
+                                    className="img-fluid rounded shadow-lg"
+                                    height="auto"
+                                    width="500px"
+                                    src={require("../assets/profile.webp")}
+                                    alt="Profile Pic"
+                                />
+                                <span className="d-flex mt-3 adjust">
+                                    <Modal_ content={content}/>
+                                    <a className="cta-btn cta-btn--resume theslider">
+                                        <TextLoop className='' interval={200} children={
+                                            about.languages
+                                        } />
+                                    </a>
+                                </span>
                             </div>
                         </Fade>
                     </div>
                     <div className="col-md-6 col-sm-12">
                         <div className="about-wrapper__info">
                             <Fade right>
-                                <p className="about-wrapper__info-text">
-                                    {about.section1}
-                                </p>
-                                <p className="about-wrapper__info-text">
-                                    {about.section2}
-                                </p>
-                                <p className="about-wrapper__info-text">
-                                    {about.section3}
-                                </p>
-                                <span className="d-flex mt-3">
-                                    <Modal_ content={content}/>
-                                </span>
+                                <h2 className='section-title myname'>
+                                    Alexander Christoph
+                                </h2>
+                                {
+                                    about.sections.map((data,i) => {
+                                    return (
+                                        <p className="about-wrapper__info-text">{data.data}</p>
+                                        )
+                                    })
+                                }
                             </Fade>
                         </div>
                     </div>
-                </div>
+                </div>      
             </div>
         </section>
     )
