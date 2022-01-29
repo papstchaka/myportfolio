@@ -1,26 +1,41 @@
+export const hero = {
+    roles: [
+        "Data Science", 1000, 
+        "Machine Learning", 1000,
+        "Artificial Intelligence", 1000,
+        "Web-Development", 1000,
+        "Full-Stack", 1000,
+        ""
+    ]
+}
+
 export const about = {
     sections: [
         {
-            data: "Born 1996 in Karlsruhe, grown up near Stuttgart."
+            data: "I was born in 1996 in Karlsruhe, Germany, and grew up in a small town near Stuttgart."
         },
         {
-            data: "Started programming by the age of 11 during highschool with self made soccer playing robots."
+            data: "My programming career got its start in high school, at 11 years old, with self-made robots that played football."
         },
         {
-            data: "After finishing school and with begin of bachelors degree (Electrotechnics - B. Sc. - University of Stuttgart) moved on to Data Science and Data Analytics while working as working student @ Mercedes Benz."
+            data: "After starting my BSc in Electrotechnics at University of Stuttgart, I entered the field of Data Science and Data Analytics as a working student at Mercedes Benz."
         },
         {
-            data: "Moved to Munich afterwards making the masters degree (Electrotechnics - M. Sc. - TU Munich) focusing on Data Science, going deep into machine learning & artificial intelligence. Joined Siemens as working student in Munich focusing on assessment and implementation of machine learning algorithms in the sphere of industrial Edge-Cloud Environments and intelligent manufacturing Infrastructure."
+            data: "I started my Electrotechnics masters degree at TU Munich, focusing on Data Science, Machine Learning & Artificial Intelligence. I joined Siemens as working student, concentrating on the assessment and implementation of machine learning algorithms in the sphere of industrial Edge-Cloud Environments and intelligent manufacturing Infrastructure."
         },
         {
-            data: "During this masters program, went to Vienna doing an Erasmus exchange semester. Hereby focussed on Informatic & Data Science."
+            data: "During my masters, I moved to Vienna for an Erasmus exchange semester. There, I spent most of my time on improving my skills in informatics and data science."
         },
         {
-            data: "With passion and love into sports (soccer, volleyball, running), coding and spending time in the park with friends."
+            data: "I have a passion for sports (football, volleyball, running), and love to spend my free time in a park with friends."
         }
     ],
     link_show: require("../assets/CV_show.pdf"),
-    link_download: require("../assets/CV.pdf")
+    link_download: require("../assets/CV.pdf"),
+    languages: [
+        "Python", "Linux", "C++", "HTML", "CSS", "ReactJS", "SQL", "Java", "Spark", "Azure", "Django", "PyTorch", 
+        "Tensorflow", "Flask"
+    ]
 };
 
 export const projects = [
