@@ -24,7 +24,7 @@
   background-size: cover; */
 
   @include respond(phone) {
-    padding: 0rem $default-font-size;
+    padding: 0;
   }
 
   .hero-title {
@@ -68,14 +68,14 @@
 
 .anavbar {
   border: none;
+  // Responsive Button hero style
+  @include respond(phone) {
+    width: 200px;
+  }
 }
 
 .pnavbar {
   margin-bottom: 0%;
-  // Responsive Button hero style
-  @include respond(phone) {
-    line-height: 0.5;
-  }
 }
 
 .navnavbar {
@@ -85,7 +85,7 @@
     $secondary-color 100%
   );
   display: flex;
-  // width: 100%;
+  width: 100%;
   justify-content: center;
   border: 2px solid transparent;
   border-image: linear-gradient(
@@ -101,4 +101,8 @@
   border: 2px solid transparent;
   border-color: $white-color;
   border-radius: 5px;
+  // Responsive Button hero style
+  @include respond(phone) {
+    display: inline-block;
+  }
 }
