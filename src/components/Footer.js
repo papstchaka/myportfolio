@@ -4,7 +4,7 @@ import { animateScroll } from 'react-scroll'
 
 function Footer({social_networks}) {
     return (
-        <footer className="footer navbar-static-bottom">
+        <footer className="footer navbar-static-bottom" id="footer">
             <div className="container">
                 <a onClick={animateScroll.scrollToTop} className="back-to-top" id="bottom">
                     <i className="fa fa-angle-up fa-2x" aria-hidden="true"></i>
