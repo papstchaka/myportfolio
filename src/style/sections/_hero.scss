@@ -7,7 +7,7 @@
   background: $white-color;
   font-weight: 400;
   color: $dark-blue-text;
-  padding: 0rem 5.6rem;
+  padding: 0;
   margin-bottom: 0;
   top: 0;
   left: 0;
@@ -64,4 +64,37 @@
       }
     }
   }
+}
+
+.anavbar {
+  border: none;
+}
+
+.pnavbar {
+  margin-bottom: 0%;
+}
+
+.navnavbar {
+  background: linear-gradient(
+    135deg,
+    $primary-color 0%,
+    $secondary-color 100%
+  );
+  display: flex;
+  // width: 100%;
+  justify-content: center;
+  border: 2px solid transparent;
+  border-image: linear-gradient(
+    135deg,
+    $primary-color 0%,
+    $secondary-color 100%
+  );
+  border-image-slice: 1;
+}
+
+.divnavbar {
+  display: inline-flex;
+  border: 2px solid transparent;
+  border-color: $white-color;
+  border-radius: 5px;
 }
