@@ -29,11 +29,12 @@ function Hero({hero}) {
                         <br />
                         <span>
                             <span>Your man for </span>
-                            <TypeAnimation curser={false} repeat={Infinity} wrapper={"span"} sequence={hero.roles} />
+                            <br />
+                            <TypeAnimation className="text-color-main" curser={false} repeat={Infinity} wrapper={"span"} sequence={hero.roles} />
                         </span>
                     </h1>
                     <p className="hero-cta">
-                        <a className="cta-btn cta-btn--hero" href="#about">Know more</a>
+                        <Link to="about" spy={true} smooth={true} className="cta-btn cta-btn--hero" href="#about">Know more</Link>
                     </p>
                 </Fade>
             </div>

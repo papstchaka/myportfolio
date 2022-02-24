@@ -3,6 +3,7 @@ import ProjectManager from './ProjectManager';
 import Fade from 'react-reveal/Fade';
 import Accordion from 'react-bootstrap/Accordion';
 import ReactHtmlParser from 'react-html-parser';
+import { Link } from 'react-scroll'
 
 function ProjectList({projects}) {
     return (
@@ -16,7 +17,7 @@ function ProjectList({projects}) {
                   {
                     projects.reverse().map((project, i) => {
                       return(
-                        <a className="cta-btn cta-btn--hero" href={"#"+project.year} style={{"margin":"0px 10px 0px 10px"}}>{project.year}</a>
+                        <Link to={project.year} spy={true} smooth={true} className="cta-btn cta-btn--hero" style={{"margin":"0px 10px 0px 10px"}}>{project.year}</Link>
                       )
                     })
                   }
