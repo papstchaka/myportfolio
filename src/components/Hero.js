@@ -1,9 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Fade from 'react-reveal/Fade';
 import { animateScroll, Link } from 'react-scroll'
 import TypeAnimation from 'react-type-animation'
 
-function Hero({hero}) {
+function Hero({hero, themeToggler}) {
+    const [toggle, setToggle] = useState(false);
+
+    const triggerToggle = () => {
+        setToggle( !toggle );
+        themeToggler();
+    }
+
     return (
         <div id="hero" className="jumbotron">
             <nav className="navnavbar">
@@ -39,7 +46,19 @@ function Hero({hero}) {
                 </Fade>
             </div>
             <div className="container">
-                <Fade bottom>
+                <Fade bottom>                
+                    <div className="wrg-toggle" onClick={triggerToggle} className={`wrg-toggle ${toggle ? 'wrg-toggle--checked' : ''}`}>
+                        <div className="wrg-toggle-container">
+                            <div className="wrg-toggle-check">
+                                <span>🌜</span>
+                            </div>
+                            <div className="wrg-toggle-uncheck">
+                                <span>🌞</span>
+                            </div>
+                        </div>
+                        <div className="wrg-toggle-circle"></div>
+                        <input className="wrg-toggle-input" type="checkbox" aria-label="Toggle Button" />
+                    </div>
                     <p>
                         <a onClick={animateScroll.scrollToBottom} className="to-bottom">
                             <i className="fa fa-angle-down fa-2x" aria-hidden="true"></i>
