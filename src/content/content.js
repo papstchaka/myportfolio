@@ -3,7 +3,7 @@ export const hero = {
         "Data Science", 1000, 
         "Machine Learning", 1000,
         "Artificial Intelligence", 1000,
-        "Web-Development", 1000,
+        "Web Development", 1000,
         "Full-Stack", 1000,
         ""
     ]
