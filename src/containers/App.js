@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Hero from '../components/Hero';
 import About from '../components/About';
@@ -10,21 +10,39 @@ import '../style/main.scss';
 
 import { hero, about, projects, contact, social_networks } from "../content/content.js";
 
-class App extends Component {
+import { ThemeProvider } from "styled-components";
+import { GlobalStyles, SectionBackground, NavBackground } from "../components/globalStyles";
+import { lightTheme, darkTheme } from "../components/Themes"
 
-  render() {
-    return (
-      <div>
-        <Hero hero={hero}/>
-        <About about={about}/>
-        <ErrorBoundry>
-            <ProjectList projects={projects}/>
-        </ErrorBoundry>
-        <Contact contact={contact}/>
-        <Footer social_networks={social_networks}/>
-      </div>
-    );
-  }  
+function App() {
+  const [theme, setTheme] = React.useState('dark');
+  const themeToggler = () => {
+    theme === 'light' ? setTheme('dark') : setTheme('light')
+  }
+
+
+  return (
+      <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+        <>
+        <GlobalStyles/>
+          <div>
+            <NavBackground>
+              <Hero hero={hero} themeToggler={themeToggler}/>
+            </NavBackground>
+            <SectionBackground>
+              <About about={about}/>
+            </SectionBackground>
+            <ErrorBoundry>
+              <ProjectList projects={projects}/>
+            </ErrorBoundry>
+            <SectionBackground>
+              <Contact contact={contact}/>
+            </SectionBackground>
+            <Footer social_networks={social_networks}/>
+          </div>
+        </>
+      </ThemeProvider>
+  );
 }
 
 export default App;
