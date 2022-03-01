@@ -11,7 +11,7 @@ function ProjectList({projects}) {
         <div className="container">
           <div className="project-wrapper">
             <Fade>
-              <h2 className="section-title dark-blue-text">
+              <h2 className="section-title">
                 Projects
                 <div class="button-bar">
                   {
