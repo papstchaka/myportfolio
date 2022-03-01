@@ -1,6 +1,6 @@
 #projects {
-  background-color: $white-color;
-  color: $dark-blue-text;
+  background-color: inherit;
+  color: inherit;
   margin-top: -10rem;
   padding-top: 15rem;
 
@@ -105,7 +105,7 @@
 	transition: all .5s ease-in-out;
 	&:hover,
   &:active  {
-		background: $white-color;
+		background: rgba($primary-color, 0.2);
     box-shadow: 2px 2px $dark-grey;
 		transform: scale(1.03);
 	}
