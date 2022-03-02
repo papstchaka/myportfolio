@@ -4,13 +4,14 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.body };
     color: ${({ theme }) => theme.text};
   }
-  `
 
-export const SectionBackground = styled.section`
-  background-image: linear-gradient(135deg, ${({ theme }) => theme.primary} 0%, ${({ theme }) => theme.secondary} 100%);
-  `
-
-export const NavBackground = styled.div`
+  & .modal-content {
+    background-color: ${({ theme }) => theme.body} !important;
+  }
+  
+  & .mysection {
+    background-image: linear-gradient(135deg, ${({ theme }) => theme.primary} 0%, ${({ theme }) => theme.secondary} 100%);
+  }
 
   & .navnavbar {
         background-image: linear-gradient(135deg, ${({ theme }) => theme.primary} 0%, ${({ theme }) => theme.secondary} 100%);

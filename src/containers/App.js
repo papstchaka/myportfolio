@@ -11,7 +11,7 @@ import '../style/main.scss';
 import { hero, about, projects, contact, social_networks } from "../content/content.js";
 
 import { ThemeProvider } from "styled-components";
-import { GlobalStyles, SectionBackground, NavBackground } from "../components/globalStyles";
+import { GlobalStyles } from "../components/globalStyles";
 import { lightTheme, darkTheme } from "../components/Themes"
 
 function App() {
@@ -26,18 +26,12 @@ function App() {
         <>
         <GlobalStyles/>
           <div>
-            <NavBackground>
-              <Hero hero={hero} themeToggler={themeToggler}/>
-            </NavBackground>
-            <SectionBackground>
-              <About about={about}/>
-            </SectionBackground>
+            <Hero hero={hero} themeToggler={themeToggler}/>
+            <About about={about}/>
             <ErrorBoundry>
               <ProjectList projects={projects}/>
             </ErrorBoundry>
-            <SectionBackground>
-              <Contact contact={contact}/>
-            </SectionBackground>
+            <Contact contact={contact}/>
             <Footer social_networks={social_networks}/>
           </div>
         </>

@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 function Contact({contact}) {
     return (
-        <section id="contact">
+        <section id="contact" className='mysection'>
             <div className="container">
                 <Fade>
                     <h2 className="section-title">

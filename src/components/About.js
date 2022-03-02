@@ -12,7 +12,7 @@ function About({about}) {
     }
 
     return (
-        <section id="about">
+        <section id="about" className='mysection'>
             <div className="container">
                 <div className="row about-wrapper">
                     <div className="col-md-6 col-sm-12">
