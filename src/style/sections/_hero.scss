@@ -1,6 +1,8 @@
 #hero {
-  min-height: 100vh;
-  height: 100vh;
+  // min-height: 100vh;
+  // height: 100vh;
+  min-height: 95vh;
+  height: 95vh;
   display: flex;
   align-items: center;
   border-bottom: 0px;
@@ -68,17 +70,33 @@
 
 .anavbar {
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   // Responsive Button hero style
   @include respond(phone) {
-    width: 200px;
+    width: min-content;
+    font-size: 1.2rem !important;
   }
 }
 
 .pnavbar {
   margin-bottom: 0%;
+  height: -webkit-fill-available;
 }
 
 .navnavbar {
+  position: sticky;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  backdrop-filter: blur(100px);
+  min-height: 5vh;
+  height: 5vh;
+
   display: flex;
   width: 100%;
   justify-content: center;
@@ -87,12 +105,18 @@
 }
 
 .divnavbar {
+  align-items: center;
   display: inline-flex;
   border: 2px solid transparent;
   border-color: $white-color;
   border-radius: 5px;
   // Responsive Button hero style
-  @include respond(phone) {
-    display: inline-block;
+  @include respond(phone-xs) {
+    display: none;
   }
+}
+
+#background {
+  z-index: -1;
+  opacity: 0;
 }
