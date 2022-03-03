@@ -7,6 +7,7 @@ import ProjectList from '../components/ProjectList';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import '../style/main.scss';
+import { animateScroll, Link } from 'react-scroll'
 
 import { hero, about, projects, contact, social_networks } from "../content/content.js";
 
@@ -25,7 +26,23 @@ function App() {
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
         <>
         <GlobalStyles/>
-          <div>
+          <div id="start">       
+            <nav className="navnavbar">
+                <div className="divnavbar">
+                    <p className="hero-cta pnavbar">
+                        <Link className="cta-btn cta-btn--resume anavbar" to="start" spy={true} smooth={true}>Start</Link>
+                    </p>
+                    <p className="hero-cta pnavbar">
+                        <Link className="cta-btn cta-btn--resume anavbar" to="about" spy={true} smooth={true}>About Me</Link>
+                    </p>
+                    <p className="hero-cta pnavbar">
+                        <Link className="cta-btn cta-btn--resume anavbar" to="projects" spy={true} smooth={true}>My Projects</Link>
+                    </p>
+                    <p className="hero-cta pnavbar">
+                        <Link className="cta-btn cta-btn--resume anavbar" to="contact" spy={true} smooth={true}>Contact Me</Link>
+                    </p>
+                </div>
+            </nav>
             <Hero hero={hero} themeToggler={themeToggler}/>
             <About about={about}/>
             <ErrorBoundry>
