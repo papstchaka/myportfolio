@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Fade from 'react-reveal/Fade';
 import { animateScroll, Link } from 'react-scroll'
 import TypeAnimation from 'react-type-animation'
+import { vh } from 'react-native-expo-viewport-units'
 
 function Hero({hero, themeToggler}) {
     const [toggle, setToggle] = useState(false);
@@ -26,13 +27,13 @@ function Hero({hero, themeToggler}) {
                         </span>
                     </h1>
                     <p className="hero-cta">
-                        <Link to="about" spy={true} smooth={true} className="cta-btn cta-btn--hero" href="#about">Know more</Link>
+                        <Link to="about" offset={-vh(5)} spy={true} smooth={true} className="cta-btn cta-btn--hero" href="#about">Know more</Link>
                     </p>
                 </Fade>
             </div>
             <div className="container">
                 <Fade bottom>                
-                    <div className="wrg-toggle" onClick={triggerToggle} className={`wrg-toggle ${toggle ? 'wrg-toggle--checked' : ''}`}>
+                    <div onClick={triggerToggle} className={`wrg-toggle ${toggle ? 'wrg-toggle--checked' : ''}`}>
                         <div className="wrg-toggle-container">
                             <div className="wrg-toggle-check">
                                 <span>🌜</span>

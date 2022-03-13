@@ -4,6 +4,7 @@ import Fade from 'react-reveal/Fade';
 import Accordion from 'react-bootstrap/Accordion';
 import ReactHtmlParser from 'react-html-parser';
 import { Link } from 'react-scroll'
+import { vh } from 'react-native-expo-viewport-units'
 
 function ProjectList({projects}) {
     return (
@@ -17,7 +18,7 @@ function ProjectList({projects}) {
                   {
                     projects.reverse().map((project, i) => {
                       return(
-                        <Link to={project.year} spy={true} smooth={true} className="cta-btn cta-btn--hero" style={{"margin":"0px 10px 0px 10px"}}>{project.year}</Link>
+                        <Link to={project.year} spy={true} smooth={true} offset={-vh(10)} className="cta-btn cta-btn--hero" style={{"margin":"0px 10px 0px 10px"}}>{project.year}</Link>
                       )
                     })
                   }
