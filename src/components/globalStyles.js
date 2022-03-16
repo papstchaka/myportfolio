@@ -21,4 +21,12 @@ export const GlobalStyles = createGlobalStyle`
   & .to-bottom {
     color: ${({ theme }) => theme.text};
   }  
+
+  & .wrg-toggle-container {
+    background-color: ${({ theme }) => theme.ctnbackground};
+  }
+
+  & .wrg-toggle-circle {
+    background-color: ${({ theme }) => theme.btnbackground};
+    border: 1px solid ${({ theme }) => theme.ctnbackground};
   `
