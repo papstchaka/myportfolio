@@ -1,12 +1,15 @@
 .scroll {
     overflow-y: scroll;
     border: 1px solid black;
-    height: 80vh;
+    height: 78vh;
     overflow-x: hidden;
+    @include respond(tab-land) {
+        height: 76vh;
+    }
     @include respond(phone) {
-        height: 82vh;
+        height: 78vh;
     }
     @include respond(phone-xs) {
-        height: max-content;
+        height: 80vh;
     }
 }
