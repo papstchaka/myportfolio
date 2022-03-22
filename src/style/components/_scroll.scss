@@ -1,10 +1,10 @@
 .scroll {
     overflow-y: scroll;
     border: 1px solid black;
-    height: 82vh;
+    height: 80vh;
     overflow-x: hidden;
     @include respond(phone) {
-        height: 84vh;
+        height: 82vh;
     }
     @include respond(phone-xs) {
         height: max-content;
