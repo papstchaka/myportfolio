@@ -3,6 +3,9 @@
     border: 1px solid black;
     height: 78vh;
     overflow-x: hidden;
+    @include respond(big-desktop) {
+        height: 80vh;
+    }
     @include respond(tab-land) {
         height: 76vh;
     }
