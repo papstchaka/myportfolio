@@ -93,9 +93,14 @@
 }
 
 .adjust {
+  place-content: space-between;
   margin: 2rem 0 4.5rem 0 !important;
   // Responsive style
   @include respond(tab-port-sm) {
     align-self: center;
   }
+}
+
+.img-fluid {
+  width: 100%;
 }
