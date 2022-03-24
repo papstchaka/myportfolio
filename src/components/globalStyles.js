@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components"
 export const GlobalStyles = createGlobalStyle`
   body {
     background: ${({ theme }) => theme.body };
@@ -14,8 +14,8 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   & .navnavbar {
-        background-image: linear-gradient(135deg, ${({ theme }) => theme.primary} 0%, ${({ theme }) => theme.secondary} 100%);
-        border-image: linear-gradient(135deg, ${({ theme }) => theme.primary} 0%, ${({ theme }) => theme.secondary} 100%);
+    background-image: linear-gradient(135deg, ${({ theme }) => theme.primary} 0%, ${({ theme }) => theme.secondary} 100%);
+    border-image: linear-gradient(135deg, ${({ theme }) => theme.primary} 0%, ${({ theme }) => theme.secondary} 100%);
   }
 
   & .to-bottom {
@@ -29,4 +29,22 @@ export const GlobalStyles = createGlobalStyle`
   & .wrg-toggle-circle {
     background-color: ${({ theme }) => theme.btnbackground};
     border: 1px solid ${({ theme }) => theme.ctnbackground};
+  }
+
+  & .hovered {
+    &:hover {
+      background-color: ${({ theme }) => theme.btnbackground};
+    }
+    &::active {
+      background-color: ${({ theme }) => theme.btnbackground};
+    }
+  }
+
+  & .project-wrapper__text {
+    & p > a {
+      &:hover {
+        background: ${({ theme }) => theme.secondary};
+      }
+    }
+  }
   `
