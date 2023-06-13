@@ -208,7 +208,7 @@ export const contact = {
 export const social_networks = [
     {
         network: "Instagram",
-        link: "https://z-p42.www.instagram.com/papstchaka/"
+        link: "https://z-p42.www.instagram.com/chaqueezy/"
     },
     {
         network: "Xing",
