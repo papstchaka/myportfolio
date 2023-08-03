@@ -211,10 +211,6 @@ export const social_networks = [
         link: "https://z-p42.www.instagram.com/chaqueezy/"
     },
     {
-        network: "Xing",
-        link: "https://www.xing.com/profile/Alexander_Christoph10"
-    },
-    {
         network: "Linkedin",
         link: "https://linkedin.com/in/alex-christoph"
     },
