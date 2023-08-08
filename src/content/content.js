@@ -21,13 +21,16 @@ export const about = {
             data: "After starting my BSc in Electrotechnics at University of Stuttgart, I entered the field of Data Science and Data Analytics as a working student at Mercedes Benz."
         },
         {
-            data: "I started my Electrotechnics masters degree at TU Munich, focusing on Data Science, Machine Learning & Artificial Intelligence. I joined Siemens as working student, concentrating on the assessment and implementation of machine learning algorithms in the sphere of industrial Edge-Cloud Environments and intelligent manufacturing Infrastructure."
+            data: "During my masters degree in Electrotechnics at TU Munich, I deepened my knowledge on Data Science, Machine Learning & Artificial Intelligence."
         },
         {
-            data: "During my masters, I moved to Vienna for an Erasmus exchange semester. There, I spent most of my time on improving my skills in informatics and data science."
+            data: "I spent one semester of my masters in Vienna doing an Erasmus exchange. There, I spent most of my time on improving my skills in informatics and data science."
         },
         {
-            data: "I have a passion for sports (football, volleyball, running), and love to spend my free time in a park with friends."
+            data: "Currently I am working for a small startup from Munich, called Vestigas. We focus on digitizing and revolutionizing the construction industry."
+        },
+        {
+            data: "Apart from work, I spend most of my free time doing sports (football, volleyball, running), and love to spend time in a park with friends."
         }
     ],
     link_show: require("../assets/CV_show.pdf"),
