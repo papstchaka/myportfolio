@@ -44,7 +44,7 @@
     "react-html-parser": "^2.0.2",
     "react-native-expo-viewport-units": "0.0.8",
     "react-native-web": "^0.17.7",
-    "react-pdf": "^7.7.3",
+    "react-pdf": "^8.0.2",
     "react-reveal": "^1.2.2",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.7.16",
