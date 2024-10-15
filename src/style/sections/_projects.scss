@@ -91,9 +91,15 @@
 	text-align: left;
 	margin-bottom: unset !important;
 	padding-bottom: 1.8rem;
+  color: inherit !important;
+  background-color: unset !important;
+  box-shadow: none !important;
 	&:hover {
 		cursor: pointer;
 	}
+  &:after {
+    content: none;
+  }
 }
 .wrapper {
 	border: 2px solid #fafafa;
