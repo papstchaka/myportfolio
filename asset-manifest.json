@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.f9160ecb.css",
-    "main.js": "/myportfolio/static/js/main.3e9333ce.js",
+    "main.js": "/myportfolio/static/js/main.339f84c8.js",
     "static/media/smartbrain.webp": "/myportfolio/static/media/smartbrain.19b53d6a5bbda2eb1149.webp",
     "static/media/profile.webp": "/myportfolio/static/media/profile.744f02bc5ba76a312af9.webp",
     "static/media/CV.pdf": "/myportfolio/static/media/CV.e30949d54bf0e8e49b19.pdf",
@@ -11,19 +11,19 @@
     "static/media/mnist.webp": "/myportfolio/static/media/mnist.ca5c9e6404c9c5fd0818.webp",
     "static/media/explore-corona.webp": "/myportfolio/static/media/explore-corona.c148f23f4eda0738bf19.webp",
     "static/media/robofriends.webp": "/myportfolio/static/media/robofriends.8908072bcb37d3a87a3f.webp",
-    "static/media/sort_music.webp": "/myportfolio/static/media/sort_music.e5070b9ecc1aa9c42a87.webp",
     "static/media/barnsley_fern.webp": "/myportfolio/static/media/barnsley_fern.2bf5378f5ef44d298500.webp",
     "static/media/basic_ml.webp": "/myportfolio/static/media/basic_ml.1f1315d14fc7ac464858.webp",
+    "static/media/sort_music.webp": "/myportfolio/static/media/sort_music.70d6359c22c6f3452f3b.webp",
     "static/media/hpc_parallel.webp": "/myportfolio/static/media/hpc_parallel.a8cacb221128697d8119.webp",
     "static/media/simple_django_react_app.webp": "/myportfolio/static/media/simple_django_react_app.a2df477291e0c297fd8c.webp",
     "static/media/django_test.webp": "/myportfolio/static/media/django_test.c732056dc71c2014100d.webp",
     "static/media/dash_test.webp": "/myportfolio/static/media/dash_test.554dab1615cbc694fd92.webp",
     "index.html": "/myportfolio/index.html",
     "main.f9160ecb.css.map": "/myportfolio/static/css/main.f9160ecb.css.map",
-    "main.3e9333ce.js.map": "/myportfolio/static/js/main.3e9333ce.js.map"
+    "main.339f84c8.js.map": "/myportfolio/static/js/main.339f84c8.js.map"
   },
   "entrypoints": [
     "static/css/main.f9160ecb.css",
-    "static/js/main.3e9333ce.js"
+    "static/js/main.339f84c8.js"
   ]
 }
