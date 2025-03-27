@@ -205,7 +205,7 @@ export const projects = [
 
 export const contact = {
     call_to_action: "",
-    email: "mailto:alexander.christoph@tum.de"
+    email: "mailto:alexander.christoph@vestigas.com"
 };
 
 export const social_networks = [
