@@ -1,17 +1,17 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 
 function Contact({contact}) {
     return (
         <section id="contact" className='mysection'>
             <div className="container">
-                <Fade>
+                <Fade triggerOnce>
                     <h2 className="section-title">
                         Contact
                     </h2>
                 </Fade>
                 <div className="contact-wrapper">
-                    <Fade bottom>
+                    <Fade direction="up" triggerOnce>
                         <p className="contact-wrapper__text">
                             {contact.call_to_action}
                         </p>

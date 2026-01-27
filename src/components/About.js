@@ -1,6 +1,5 @@
-import React from 'react';
-import Fade from 'react-reveal/Fade';
-import TextLoop from 'react-text-loop'
+import React, { useState, useEffect } from 'react';
+import { Fade } from 'react-awesome-reveal';
 import Modal_ from './Modal_';
 
 function About({about}) {
@@ -11,12 +10,21 @@ function About({about}) {
             download: about.link_download}
     }
 
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentIndex((prevIndex) => (prevIndex + 1) % about.languages.length);
+        }, 200);
+        return () => clearInterval(interval);
+    }, [about.languages.length]);
+
     return (
         <section id="about" className='mysection'>
             <div className="container">
                 <div className="row about-wrapper">
                     <div className="col-md-6 col-sm-12">
-                        <Fade bottom>
+                        <Fade direction="up" triggerOnce>
                             <div className="about-wrapper__image">
                                 <img
                                     className="img-fluid rounded shadow-lg"
@@ -28,9 +36,9 @@ function About({about}) {
                                 <span className="d-flex mt-3 adjust">
                                     <Modal_ content={content}/>
                                     <a className="cta-btn cta-btn--resume theslider">
-                                        <TextLoop className='' interval={200} children={
-                                            about.languages
-                                        } />
+                                        <span className="text-loop">
+                                            {about.languages[currentIndex]}
+                                        </span>
                                     </a>
                                 </span>
                             </div>
@@ -38,14 +46,14 @@ function About({about}) {
                     </div>
                     <div className="col-md-6 col-sm-12">
                         <div className="about-wrapper__info">
-                            <Fade right>
+                            <Fade direction="right" triggerOnce>
                                 <h2 className='section-title myname'>
                                     Alexander Christoph
                                 </h2>
                                 {
                                     about.sections.map((data,i) => {
                                     return (
-                                        <p className="about-wrapper__info-text">{data.data}</p>
+                                        <p key={i} className="about-wrapper__info-text">{data.data}</p>
                                         )
                                     })
                                 }

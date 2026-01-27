@@ -7,7 +7,7 @@
     "javascript",
     "html",
     "css",
-    "reatjs",
+    "reactjs",
     "portfolio",
     "cv",
     "papstchaka"
@@ -17,46 +17,25 @@
     "type": "git",
     "url": "git+https://github.com/papstchaka/myportfolio.git"
   },
-  "description": "Big thanks to <a href=\"https://github.com/cobiwave\" target=\"_blank\">Jacobo Martínez</a> for providing this <a href=\"https://github.com/cobiwave/simplefolio/\" target=\"_blank\">simplefolio project</a> that can easily and quickly be turned into a customized version for everybody!",
+  "description": "Big thanks to Jacobo Martínez for providing this simplefolio project that can easily and quickly be turned into a customized version for everybody!",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^12.1.5",
-    "@testing-library/user-event": "^13.5.0",
-    "ansi-regex": "^6.0.1",
-    "assert": "^2.0.0",
-    "async": "^3.2.5",
-    "babel": "^6.23.0",
-    "bootstrap": "^5.0.0",
-    "buffer": "^6.0.3",
-    "deep-extend": "^0.6.0",
-    "gh-pages": "^5.0.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.5.2",
+    "bootstrap": "^5.3.3",
+    "gh-pages": "^6.2.0",
+    "html-react-parser": "^5.2.4",
     "jquery": "^3.7.1",
-    "json5": "^2.2.3",
-    "node-forge": "^1.3.1",
-    "nth-check": "^2.1.1",
-    "path-browserify": "^1.0.1",
-    "popper.js": "^1.16.1",
-    "postcss": "^8.4.38",
-    "qs": "^6.12.1",
     "react": "^18.3.1",
-    "react-bootstrap": "^1.6.8",
-    "react-dom": "^16.13.1",
-    "react-html-parser": "^2.0.2",
-    "react-native-expo-viewport-units": "0.0.8",
-    "react-native-web": "^0.17.7",
-    "react-pdf": "^8.0.2",
-    "react-reveal": "^1.2.2",
+    "react-awesome-reveal": "^4.3.1",
+    "react-bootstrap": "^2.10.7",
+    "react-dom": "^18.3.1",
+    "react-parallax-tilt": "^1.7.252",
+    "react-pdf": "^9.2.1",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.0",
-    "react-text-loop": "^2.3.0",
-    "react-tilt": "^0.1.4",
-    "react-type-animation": "^1.1.3",
-    "semver": "^7.6.1",
-    "styled-components": "^5.3.3",
-    "tilt.js": "^1.2.1",
-    "url": "^0.11.0",
-    "util": "^0.12.4",
-    "yaml": "^2.4.2"
+    "react-type-animation": "^3.2.0",
+    "styled-components": "^6.1.15"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -82,11 +61,12 @@
     ]
   },
   "devDependencies": {
-    "assert": "^2.0.0",
-    "buffer": "^6.0.3",
-    "path-browserify": "^1.0.1",
-    "sass": "^1.77.0",
-    "url": "^0.11.0",
-    "util": "^0.12.4"
+    "sass": "^1.83.4"
+  },
+  "overrides": {
+    "nth-check": "^2.1.1",
+    "postcss": "^8.4.49",
+    "tar": "^7.6.0",
+    "svgo": "^3.3.2"
   }
 }

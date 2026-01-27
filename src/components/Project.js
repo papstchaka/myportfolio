@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactHtmlParser from 'react-html-parser';
-import Fade from 'react-reveal/Fade';
-import Tilt from 'react-tilt';
+import parse from 'html-react-parser';
+import { Fade } from 'react-awesome-reveal';
+import Tilt from 'react-parallax-tilt';
 
 function Project({title,description,link_live,link_source,link_picture}) {
     const live_link_avb = link_live === "" ? "none" : "inline-block";
@@ -10,11 +10,11 @@ function Project({title,description,link_live,link_source,link_picture}) {
       <div className="row">
         <div className="col-lg-4 col-sm-12">
           <div className="project-wrapper__text">
-              <Fade left>
+              <Fade direction="left" triggerOnce>
               <h3 className="project-wrapper__text-title">{title}</h3>
               <div>
-                <p className="mb-4" style={{"text-align":"justify"}}>
-                  {ReactHtmlParser(description)}
+                <p className="mb-4" style={{"textAlign":"justify"}}>
+                  {parse(description)}
                 </p>
               </div>
               <a target="_blank" rel="noopener noreferrer" className="cta-btn text-color-main src-link" href={link_source}>
@@ -29,9 +29,9 @@ function Project({title,description,link_live,link_source,link_picture}) {
         <div className="col-lg-8 col-sm-12 myimg">
           <div className="project-wrapper__image">
             <a>
-              <Fade right>
+              <Fade direction="right" triggerOnce>
                 <div className="thumbnail rounded">
-                  <Tilt options={{max: 10}}>
+                  <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
                     <img className="img-fluid pic" src={link_picture} alt={`../assets/${link_picture.default}`}/>
                   </Tilt>
                 </div>

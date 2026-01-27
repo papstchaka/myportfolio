@@ -1,6 +1,6 @@
 export const hero = {
     roles: [
-        "Data Science", 1000, 
+        "Data Science", 1000,
         "Machine Learning", 1000,
         "Artificial Intelligence", 1000,
         "Web Development", 1000,
@@ -34,9 +34,9 @@ export const about = {
         }
     ],
     link_show: require("../assets/CV_show.pdf"),
-    link_download: require("../assets/CV.pdf"),
+    link_download: require("../assets/CV_show.pdf"),
     languages: [
-        "Python", "Linux", "C++", "HTML", "CSS", "ReactJS", "SQL", "Java", "Spark", "Azure", "Django", "PyTorch", 
+        "Python", "Linux", "C++", "HTML", "CSS", "ReactJS", "SQL", "Java", "Spark", "Azure", "Django", "PyTorch",
         "Tensorflow", "Flask"
     ]
 };
@@ -145,7 +145,7 @@ export const projects = [
                         description: "This project combines the <a href='https://django-rest-framework.org' target='_blank'>Django REST API</a> and python's <a href='https://flask.palletsprojects.com/' target='_blank'>Flask</a> as backend with the simple and clean frontend implementation of an <a href='https://reactjs.org' target='_blank'>ReactJS</a> App. It therefore provides the possibility to manage a list of notes. The list is operational until a certain deadline day that can easily be changed and accessed. The main goal of the project is to show how Django and React work together, while the functionality (here, the list of notes) is secondary. The other project - in this case <a href='https://github.com/papstchaka/simple_flask_react_app' target='_blank'>the flask implementation</a> - can also be accessed through the Git-project that is linked below.",
                         link_live: "",
                         link_source: "https://github.com/papstchaka/simple_django_react_app",
-                        link_picture: require("../assets/simple_django_react_app.webp"),        
+                        link_picture: require("../assets/simple_django_react_app.webp"),
                     },
                     {
                         title: "Django",
@@ -173,7 +173,7 @@ export const projects = [
                         description: "This is the final project of the course. It provides a website where you can register and log in to (without email verification). So just register with whatever email you want (they will only be stored on my own SQL-DataBase which I don't care about, nobody will see them). Your passwords will also be stored there but hashed, so it is almost impossible for anyone (including me) to access them. Once logged in, you can insert a photo-url (from the web) into the input and the API in the background will detect all faces which occur on the photo. Furthermore, once you are registered you'll get a unique score that tells you the number of photos you have analysed so far.",
                         link_live: "https://papstchaka.github.io/smartbrain/",
                         link_source: "https://github.com/papstchaka/smartbrain",
-                        link_picture: require("../assets/smartbrain.webp"),        
+                        link_picture: require("../assets/smartbrain.webp"),
                     },
                     {
                         title: "RoboFriends",

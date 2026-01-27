@@ -2,8 +2,10 @@ import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Scroll from './Scroll';
 import { Document, Page, pdfjs } from "react-pdf";
+import 'react-pdf/dist/Page/AnnotationLayer.css';
+import 'react-pdf/dist/Page/TextLayer.css';
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
 function Modal_({content}) {
     const [show, setShow] = React.useState(false);
@@ -19,7 +21,7 @@ function Modal_({content}) {
         </a>
   
         <Modal show={show} onHide={handleClose} dialogClassName="modal-big">
-          <Modal.Header>
+          <Modal.Header closeButton>
             <Modal.Title><h1 className="project-wrapper__text-title">{content.title}</h1></Modal.Title>
           </Modal.Header>
           <Modal.Body className="modal-body">

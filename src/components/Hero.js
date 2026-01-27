@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import Fade from 'react-reveal/Fade';
-import { animateScroll, Link } from 'react-scroll'
-import TypeAnimation from 'react-type-animation'
-import { vh } from 'react-native-expo-viewport-units'
+import { Fade } from 'react-awesome-reveal';
+import { animateScroll, Link } from 'react-scroll';
+import { TypeAnimation } from 'react-type-animation';
+import { vh } from '../utils/viewport';
 
 function Hero({hero, themeToggler}) {
     const [toggle, setToggle] = useState(false);
@@ -16,14 +16,14 @@ function Hero({hero, themeToggler}) {
         <div id="hero" className="jumbotron">
             <nav className="navnavbar" id="background"></nav>
             <div className="container">
-                <Fade left>
+                <Fade direction="left" triggerOnce>
                     <h1 className="hero-title">
                         Hi, my name is <span className="text-color-main">Alex</span>
                         <br />
                         <span>
                             <span>Your man for </span>
                             <br />
-                            <TypeAnimation className="text-color-main" curser={false} repeat={Infinity} wrapper={"span"} sequence={hero.roles} />
+                            <TypeAnimation className="text-color-main" cursor={false} repeat={Infinity} wrapper={"span"} sequence={hero.roles} />
                         </span>
                     </h1>
                     <p className="hero-cta">
@@ -32,7 +32,7 @@ function Hero({hero, themeToggler}) {
                 </Fade>
             </div>
             <div className="container">
-                <Fade bottom>                
+                <Fade direction="up" triggerOnce>                
                     <div onClick={triggerToggle} className={`wrg-toggle ${toggle ? 'wrg-toggle--checked' : ''}`}>
                         <div className="wrg-toggle-container">
                             <div className="wrg-toggle-check">
