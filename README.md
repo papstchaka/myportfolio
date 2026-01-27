@@ -8,9 +8,6 @@
         <a href="https://github.com/papstchaka/myportfolio/actions">
           <img alt="Build" src="https://github.com/papstchaka/myportfolio/actions/workflows/node.js.yml/badge.svg"/>
         </a>
-        <a href="https://github.com/papstchaka/myportfolio/actions">
-          <img alt="Code Quality" src="https://github.com/papstchaka/myportfolio/actions/workflows/codeql-analysis.yml/badge.svg"/>
-        </a>
         <a href="https://github.com/papstchaka/myportfolio/issues">
           <img alt="Issues" src="https://img.shields.io/github/issues/papstchaka/myportfolio?color=0088ff"/>
         </a>
