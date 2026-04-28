@@ -9,11 +9,15 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/b
 
 function Modal_({content}) {
     const [show, setShow] = React.useState(false);
+    const [numPages, setNumPages] = React.useState(null);
   
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-  
+    const onDocumentLoadSuccess = ({ numPages: nextNumPages }) => {
+      setNumPages(nextNumPages);
+    };
+
     return (
       <>
         <a rel="noopener noreferrer" className="cta-btn cta-btn--resume" onClick={handleShow}>
@@ -28,10 +32,17 @@ function Modal_({content}) {
             <Document
               file={content.content.show}
               className={"PDFDocument"}
+              onLoadSuccess={onDocumentLoadSuccess}
             >
               <Scroll>
-                <Page pageNumber={1} scale={1.8} className={"PDFPage PDFPageOne"}/>
-                <Page pageNumber={2} scale={1.8} className={"PDFPage PDFPageOne"}/>
+                {Array.from({ length: numPages || 0 }, (_, index) => (
+                  <Page
+                    key={`page_${index + 1}`}
+                    pageNumber={index + 1}
+                    scale={1.8}
+                    className={"PDFPage PDFPageOne"}
+                  />
+                ))}
               </Scroll>
             </Document>
           </Modal.Body>
